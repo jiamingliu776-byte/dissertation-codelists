@@ -172,7 +172,7 @@ print("Figure 2: F1 bar chart SVG saved")
 
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(13, 5.5))
 
-models = ['GPT-5.4\nMini', 'Claude\nSonnet 5', 'Gemini\n3.6 Flash']
+models = ['GPT-5.4 Mini', 'Claude Sonnet 5', 'Gemini 3.6 Flash']
 
 # FP data — unsure categories merged
 # Unsure = Valid subtype (269,627,624) + Semantic drift (51,283,248)
@@ -200,7 +200,7 @@ for i, (cat, col) in enumerate(zip(fp_cats, fp_colors)):
 ax1.set_xticks(x_fp)
 ax1.set_xticklabels(models, fontsize=9)
 for j, t in enumerate(fp_totals):
-    ax1.text(j, -5, f'n={int(t)}', ha='center', fontsize=8, color='#666')
+    ax1.text(j, -8, f'n={int(t)}', ha='center', fontsize=8, color='#666')
 ax1.set_ylabel('Percentage (%)', fontsize=10)
 ax1.set_ylim(0, 105)
 ax1.set_title('False Positive Classification', fontsize=12, fontweight='bold')
@@ -231,7 +231,7 @@ for i, (cat, col) in enumerate(zip(fn_cats, fn_colors)):
 ax2.set_xticks(x_fp)
 ax2.set_xticklabels(models, fontsize=9)
 for j, t in enumerate(fn_totals):
-    ax2.text(j, -5, f'n={int(t)}', ha='center', fontsize=8, color='#666')
+    ax2.text(j, -8, f'n={int(t)}', ha='center', fontsize=8, color='#666')
 ax2.set_ylabel('Percentage (%)', fontsize=10)
 ax2.set_ylim(0, 105)
 ax2.set_title('False Negative Classification', fontsize=12, fontweight='bold')
