@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 820 540" xmlns="http://www.w3.org/2000/svg" width="820" height="540">
+  <style>
+    .box { rx: 8; ry: 8; }
+    .box-primary { fill: #E8F0FE; stroke: #4285F4; stroke-width: 1.5; }
+    .box-secondary { fill: #FFF3E0; stroke: #F9A825; stroke-width: 1.5; }
+    .box-success { fill: #E8F5E9; stroke: #43A047; stroke-width: 1.5; }
+    .box-neutral { fill: #F5F5F5; stroke: #9E9E9E; stroke-width: 1.5; }
+    .box-danger { fill: #FFEBEE; stroke: #E53935; stroke-width: 1.5; }
+    .label { font-family: Calibri, Arial, sans-serif; font-size: 13px; fill: #333; text-anchor: middle; dominant-baseline: middle; }
+    .label-bold { font-family: Calibri, Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #333; text-anchor: middle; dominant-baseline: middle; }
+    .label-small { font-family: Calibri, Arial, sans-serif; font-size: 11px; fill: #666; text-anchor: middle; dominant-baseline: middle; }
+    .arrow { fill: none; stroke: #888; stroke-width: 1.5; marker-end: url(#ah); }
+    .arrow-loop { fill: none; stroke: #4285F4; stroke-width: 1.5; stroke-dasharray: 6 3; marker-end: url(#ah2); }
+    .section-label { font-family: Calibri, Arial, sans-serif; font-size: 11px; font-weight: 600; fill: #999; text-anchor: start; text-transform: uppercase; letter-spacing: 1px; }
+  </style>
+  <defs>
+    <marker id="ah" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#888"/></marker>
+    <marker id="ah2" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#4285F4"/></marker>
+  </defs>
+
+  <text x="30" y="28" class="section-label">1. Data Preparation</text>
+  <rect x="30" y="42" width="160" height="50" class="box box-neutral"/>
+  <text x="110" y="60" class="label-bold">CPRD Aurum</text>
+  <text x="110" y="76" class="label-small">Medical + Product</text>
+  <path d="M190,67 L240,67" class="arrow"/>
+  <rect x="240" y="42" width="180" height="50" class="box box-primary"/>
+  <text x="330" y="60" class="label-bold">Embedding</text>
+  <text x="330" y="76" class="label-small">text-embedding-3-large</text>
+  <path d="M420,67 L470,67" class="arrow"/>
+  <rect x="470" y="42" width="160" height="50" class="box box-primary"/>
+  <text x="550" y="60" class="label-bold">Vector Index</text>
+  <text x="550" y="76" class="label-small">.npy (cosine similarity)</text>
+
+  <text x="30" y="130" class="section-label">2. Agentic Loop</text>
+  <rect x="25" y="140" width="620" height="210" rx="12" ry="12" fill="none" stroke="#4285F4" stroke-width="1" stroke-dasharray="8 4" opacity="0.4"/>
+  <text x="50" y="162" class="label-small" style="text-anchor:start; font-style:italic;">LLM decides autonomously (max 20 iterations)</text>
+
+  <rect x="60" y="190" width="160" height="60" class="box box-secondary"/>
+  <text x="140" y="213" class="label-bold">LLM Agent</text>
+  <text x="140" y="230" class="label-small">GPT / Claude / Gemini</text>
+  <path d="M220,210 L280,210" class="arrow"/>
+  <text x="250" y="200" class="label-small">query</text>
+
+  <rect x="280" y="185" width="170" height="55" class="box box-primary"/>
+  <text x="365" y="205" class="label-bold">search_dictionary</text>
+  <text x="365" y="222" class="label-small">top-K codes returned</text>
+  <path d="M365,185 L365,135 L550,135 L550,92" class="arrow"/>
+
+  <path d="M365,240 L365,280 L140,280 L140,250" class="arrow-loop"/>
+  <text x="250" y="296" class="label-small" style="font-style:italic;">results → decide next action</text>
+
+  <path d="M220,235 L280,310 L460,310" class="arrow"/>
+  <rect x="460" y="285" width="170" height="50" class="box box-success"/>
+  <text x="545" y="303" class="label-bold">submit_codelist</text>
+  <text x="545" y="320" class="label-small">final code IDs</text>
+
+  <text x="30" y="390" class="section-label">3. Evaluation</text>
+  <rect x="60" y="405" width="150" height="50" class="box box-success"/>
+  <text x="135" y="423" class="label-bold">AI Codelist</text>
+  <text x="135" y="440" class="label-small">generated codes</text>
+  <path d="M545,335 L545,380 L210,430" class="arrow"/>
+
+  <rect x="280" y="405" width="150" height="50" class="box box-danger"/>
+  <text x="355" y="423" class="label-bold">Reference</text>
+  <text x="355" y="440" class="label-small">expert codelists</text>
+
+  <rect x="500" y="405" width="160" height="50" class="box box-neutral"/>
+  <text x="580" y="423" class="label-bold">Compare</text>
+  <text x="580" y="440" class="label-small">P / R / F1 / Jaccard</text>
+  <path d="M210,430 L500,430" class="arrow"/>
+
+  <text x="690" y="130" class="section-label">Models</text>
+  <rect x="680" y="145" width="120" height="28" class="box box-secondary"/>
+  <text x="740" y="162" class="label-small">GPT-5.4 Mini</text>
+  <rect x="680" y="183" width="120" height="28" class="box box-secondary"/>
+  <text x="740" y="200" class="label-small">Claude Sonnet 5</text>
+  <rect x="680" y="221" width="120" height="28" class="box box-secondary"/>
+  <text x="740" y="238" class="label-small">Gemini 3.6 Flash</text>
+
+  <text x="690" y="280" class="section-label">Parameters</text>
+  <text x="695" y="300" class="label-small" style="text-anchor:start;">K = 50 (max 200)</text>
+  <text x="695" y="317" class="label-small" style="text-anchor:start;">Max iterations = 20</text>
+  <text x="695" y="334" class="label-small" style="text-anchor:start;">Dims = 1,536</text>
+
+  <text x="690" y="370" class="section-label">Conditions</text>
+  <text x="695" y="390" class="label-small" style="text-anchor:start;">8 diagnoses +</text>
+  <text x="695" y="407" class="label-small" style="text-anchor:start;">2 drug products</text>
+</svg>

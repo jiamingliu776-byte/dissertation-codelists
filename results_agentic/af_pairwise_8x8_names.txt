@@ -1,0 +1,8 @@
+AF-1
+AF-2
+AF-3
+AF-4
+AF-5
+GPT
+Claude
+Gemini
