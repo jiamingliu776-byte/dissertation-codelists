@@ -1,0 +1,26 @@
+[iter 0] search('cerebrovascular disease', k=50) => 50 results
+[iter 1] search('cerebrovascular', k=200) => 200 results
+[iter 2] search('stroke', k=200) => 200 results
+[iter 3] search('transient ischaemic attack', k=200) => 200 results
+[iter 4] search('cerebral infarction', k=200) => 200 results
+[iter 5] search('subarachnoid haemorrhage', k=200) => 200 results
+[iter 6] search('carotid', k=200) => 200 results
+[iter 7] search('precerebral', k=200) => 200 results
+[iter 8] search('vertebral artery', k=200) => 200 results
+[iter 9] search('cerebral aneurysm', k=100) => 100 results
+[iter 10] search('cerebral atherosclerosis', k=100) => 100 results
+[iter 11] search('moyamoya', k=50) => 50 results
+[iter 12] search('CADASIL', k=50) => 50 results
+[iter 13] search('Binswanger', k=50) => 50 results
+[iter 14] search('hypertensive encephalopathy', k=50) => 50 results
+[iter 15] search('amaurosis fugax', k=50) => 50 results
+[iter 16] search('cerebral vasculitis', k=50) => 50 results
+[iter 17] No tool calls — nudging to submit.
+[iter 18] No tool calls — nudging to submit.
+[iter 19] No tool calls, stopping.
+NO SUBMIT after 17 searches — starting fallback pass
+  Collected 1612 unique codes from all searches
+  Fallback attempt 1...
+  Fallback attempt 2...
+  Fallback attempt 3...
+  Fallback submit_codelist(304 codes) — SUCCESS

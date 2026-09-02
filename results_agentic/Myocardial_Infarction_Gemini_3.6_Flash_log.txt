@@ -1,0 +1,17 @@
+[iter 0] search('myocardial infarction', k=50) => 50 results
+[iter 1] search('STEMI', k=200) => 200 results
+[iter 2] search('NSTEMI', k=200) => 200 results
+[iter 3] search('coronary thrombosis', k=200) => 200 results
+[iter 4] search('heart attack', k=200) => 200 results
+[iter 5] search('infarct', k=200) => 200 results
+[iter 6] search('postoperative myocardial', k=50) => 50 results
+[iter 7] search('subsequent myocardial infarction', k=100) => 100 results
+[iter 8] search('Type myocardial infarction', k=50) => 50 results
+[iter 9] search('Type 2 myocardial infarction', k=50) => 50 results
+[iter 10] search('reinfarction', k=50) => 50 results
+[iter 11] search('dressler', k=50) => 50 results
+[iter 12] search('transmural', k=100) => 100 results
+[iter 13] search('myocardial', k=200) => 200 results
+[iter 14] search('Q wave infarction', k=50) => 50 results
+[iter 15] search('acute myocardial', k=200) => 200 results
+[iter 16] submit_codelist(191 codes)

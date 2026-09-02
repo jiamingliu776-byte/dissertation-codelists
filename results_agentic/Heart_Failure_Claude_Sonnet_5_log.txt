@@ -1,0 +1,11 @@
+[iter 0] search('heart failure', k=200) => 200 results
+[iter 0] search('cardiac failure', k=200) => 200 results
+[iter 1] search('ventricular failure', k=100) => 100 results
+[iter 1] search('cor pulmonale', k=50) => 50 results
+[iter 1] search('cardiac decompensation', k=50) => 50 results
+[iter 1] search('NYHA class heart failure', k=50) => 50 results
+[iter 2] search('heart failure stage', k=100) => 100 results
+[iter 2] search('cardiac insufficiency', k=50) => 50 results
+[iter 2] search('right sided heart failure due to', k=50) => 50 results
+[iter 2] search('left ventricular failure due to', k=50) => 50 results
+[iter 3] submit_codelist(124 codes)

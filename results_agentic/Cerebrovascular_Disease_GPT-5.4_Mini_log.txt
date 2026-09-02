@@ -1,0 +1,13 @@
+[iter 0] search('cerebrovascular disease', k=50) => 50 results
+[iter 0] search('stroke', k=50) => 50 results
+[iter 0] search('transient ischaemic attack', k=50) => 50 results
+[iter 0] search('cerebral infarction', k=50) => 50 results
+[iter 0] search('cerebral haemorrhage', k=50) => 50 results
+[iter 0] search('subarachnoid haemorrhage', k=50) => 50 results
+[iter 1] search('intracerebral haemorrhage', k=50) => 50 results
+[iter 1] search('ischemic stroke', k=50) => 50 results
+[iter 1] search('cerebral arterial occlusion', k=50) => 50 results
+[iter 1] search('cerebral thrombosis', k=50) => 50 results
+[iter 1] search('cerebral embolism', k=50) => 50 results
+[iter 1] search('occlusion cerebral artery', k=50) => 50 results
+[iter 2] submit_codelist(86 codes)

@@ -1,0 +1,73 @@
+Condition,Model,Category,Count,Examples
+Atrial Fibrillation,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),15,Paroxysmal atrial fibrillation with rapid ventricular response; Permanent atrial fibrillation due to heart valve disorder; Atrial fibrillation due to heart valve disorder
+Atrial Fibrillation,GPT-5.4_Mini,Semantic drift (related but different),5,Atrial arrhythmia; Atrial aneurysm; Cardiac fibrillation
+Atrial Fibrillation,GPT-5.4_Mini,History/resolved code,4,Atrial fibrillation resolved; H/O: atrial fibrillation; History of atrial fibrillation
+Atrial Fibrillation,GPT-5.4_Mini,Risk/screening/suspected,2,At increased risk of atrial fibrillation; Atrial fibrillation screening
+Atrial Fibrillation,GPT-5.4_Mini,Administrative/monitoring,3,Atrial fibrillation follow-up; Atrial fibrillation monitoring; Atrial fibrillation annual review
+Atrial Fibrillation,GPT-5.4_Mini,Exclusion/ruled-out code,1,Atrial fibrillation excluded
+Atrial Fibrillation,Claude_Sonnet_5,Valid diagnosis subtype (reference gap),15,Paroxysmal atrial fibrillation with rapid ventricular response; Paroxysmal AF (atrial fibrillation) with RVR (rapid ventricular response); Paroxysmal a-fib (atrial fibrillation) with RVR (rapid ventricular response)
+Atrial Fibrillation,Claude_Sonnet_5,History/resolved code,2,H/O: atrial fibrillation; History of atrial fibrillation
+Atrial Fibrillation,Gemini_3.6_Flash,Valid diagnosis subtype (reference gap),15,Paroxysmal atrial fibrillation with rapid ventricular response; Paroxysmal AF (atrial fibrillation) with RVR (rapid ventricular response); Paroxysmal a-fib (atrial fibrillation) with RVR (rapid ventricular response)
+Heart Failure,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),39,Heart failure with mid range ejection fraction; Acute on chronic right-sided congestive heart failure; Right ventricular failure due to valvular heart disease
+Heart Failure,GPT-5.4_Mini,Semantic drift (related but different),1,Weak heart
+Heart Failure,GPT-5.4_Mini,History/resolved code,1,Heart failure resolved
+Heart Failure,GPT-5.4_Mini,Administrative/monitoring,1,Heart failure monitoring
+Heart Failure,Claude_Sonnet_5,Valid diagnosis subtype (reference gap),70,Heart failure with mid range ejection fraction; Acute on chronic right-sided congestive heart failure; Heart failure due to thyrotoxicosis
+Heart Failure,Claude_Sonnet_5,Semantic drift (related but different),25,Acute pulmonary heart disease; Saddle embolus of pulmonary artery with acute cor pulmonale; Chronic cor pulmonale
+Heart Failure,Gemini_3.6_Flash,Valid diagnosis subtype (reference gap),64,Heart failure with mid range ejection fraction; Heart failure due to thyrotoxicosis; Left ventricular failure with normal ejection fraction due to valvular heart disease
+Heart Failure,Gemini_3.6_Flash,Semantic drift (related but different),6,Chronic cor pulmonale; Cardiac asthma; COR - Chronic cor pulmonale
+Cerebrovascular Disease,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),49,Intracerebral hemorrhage; ICH - intracerebral haemorrhage; Cerebral haemorrhage
+Cerebrovascular Disease,GPT-5.4_Mini,Semantic drift (related but different),7,Cerebral arterial embolism; Transient cerebral ischemia; Anterior cerebral circulation infarction
+Cerebrovascular Disease,Claude_Sonnet_5,Valid diagnosis subtype (reference gap),210,Carotid artery thrombosis; Occlusion of carotid artery; Intracerebral hemorrhage
+Cerebrovascular Disease,Claude_Sonnet_5,Semantic drift (related but different),135,Cerebral venous thrombosis of cavernous sinus; Cerebral venous sinus thrombosis; Basilar artery syndrome
+Cerebrovascular Disease,Claude_Sonnet_5,History/resolved code,9,History of cerebral aneurysm; History of transient ischaemic attack; [V]Personal history of transient ischaemic attack
+Cerebrovascular Disease,Gemini_3.6_Flash,Valid diagnosis subtype (reference gap),138,Cerebral haemorrhage; Carotid artery disease; Cerebral vein thrombosis
+Cerebrovascular Disease,Gemini_3.6_Flash,Semantic drift (related but different),115,"Moyamoya disease; Transient cerebral ischemia; Cerebral aneurysm, nonruptured"
+Hypertension,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),45,Hypertension with disorder of right retina; Hypertension with disorder of left retina; Hypertension stage 2
+Hypertension,GPT-5.4_Mini,Semantic drift (related but different),2,Secondary hyperaldosteronism; Hypertonic disorder
+Hypertension,GPT-5.4_Mini,Risk/screening/suspected,2,Hypertension suspected; Suspected hypertension
+Hypertension,Claude_Sonnet_5,Valid diagnosis subtype (reference gap),64,Hypertension with disorder of right retina; Hypertension with disorder of left retina; Hypertension stage 2
+Hypertension,Gemini_3.6_Flash,Valid diagnosis subtype (reference gap),72,Hypertension stage 2; Hypertension stage 1; Cardiomegaly due to hypertension
+Hypertension,Gemini_3.6_Flash,Semantic drift (related but different),1,Preg.+ pre-existing hypertensn
+Hypertension,Gemini_3.6_Flash,Administrative/monitoring,1,Labile hypertension due to being in a clinical environment
+Myocardial Infarction,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),32,Acute myocardial infarction of apex of heart; Acute apical myocardial infarction of heart; Myocardial infarction with non-obstructive coronary artery
+Myocardial Infarction,GPT-5.4_Mini,History/resolved code,1,"Past myocardial infarction diagnosed on ECG AND/OR other special investigation, but currently presenting no symptoms"
+Myocardial Infarction,GPT-5.4_Mini,Exclusion/ruled-out code,1,ECG: no myocardial infarction
+Myocardial Infarction,Claude_Sonnet_5,Valid diagnosis subtype (reference gap),106,Acute ST segment elevation myocardial infarction of inferolateral wall; Acute ST segment elevation myocardial infarction of inferoposterior wall; Acute myocardial infarction of right ventricle
+Myocardial Infarction,Claude_Sonnet_5,Semantic drift (related but different),1,Myocardial necrosis
+Myocardial Infarction,Gemini_3.6_Flash,Valid diagnosis subtype (reference gap),108,Acute ST segment elevation myocardial infarction of inferolateral wall; Acute ST segment elevation myocardial infarction of inferoposterior wall; Acute myocardial infarction of right ventricle
+Myocardial Infarction,Gemini_3.6_Flash,Semantic drift (related but different),1,Left anterior descending coronary artery thrombosis
+Peripheral Arterial Disease,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),14,Claudication; Intermittent claudication due to atherosclerosis of artery of limb; Peripheral arterial disease
+Peripheral Arterial Disease,GPT-5.4_Mini,Semantic drift (related but different),5,Occlusion of lower limb artery; Atherosclerosis of arteries of the extremities; Occlusive disease of artery of lower extremity
+Peripheral Arterial Disease,Claude_Sonnet_5,Valid diagnosis subtype (reference gap),78,Claudication; Bilateral atherosclerosis of lower limbs with gangrene; Left iliac artery thrombosis
+Peripheral Arterial Disease,Claude_Sonnet_5,Semantic drift (related but different),69,Stenosis of artery of left lower limb; Stenosis of artery of right lower limb; Arterial ulcer
+Peripheral Arterial Disease,Claude_Sonnet_5,History/resolved code,4,H/O: arterial lower limb ulcer; History of peripheral arterial occlusive disease of lower extremity; History of peripheral arterial occlusive disease
+Peripheral Arterial Disease,Gemini_3.6_Flash,Valid diagnosis subtype (reference gap),85,Claudication; Bilateral atherosclerosis of lower limbs with gangrene; Left iliac artery thrombosis
+Peripheral Arterial Disease,Gemini_3.6_Flash,Semantic drift (related but different),71,Bilateral lower limb atherosclerosis pain at rest co-occurrent and due to atherosclerosis; Ischaemia of right upper limb; Stenosis of artery of left lower limb
+COPD,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),7,Chronic obstructive airways disease NOS; Chronic obstructive pulmonary disease with acute bronchitis; Obstructive emphysema
+COPD,GPT-5.4_Mini,Risk/screening/suspected,3,At risk of chronic obstructive pulmonary disease; Suspected chronic obstructive pulmonary disease; Suspected COPD
+COPD,GPT-5.4_Mini,Administrative/monitoring,2,Chronic obstructive pulmonary disease clinic; Chronic obstructive pulmonary disease monitoring status
+COPD,GPT-5.4_Mini,Exclusion/ruled-out code,1,COPD excluded by spirometry
+COPD,Claude_Sonnet_5,Valid diagnosis subtype (reference gap),31,The Global Initiative for Chronic Obstructive Lung Disease (GOLD) classification; GOLD (Global Initiative for Chronic Obstructive Lung Disease) 2017 spirometric grade; GOLD (Global Initiative for Chronic Obstructive Lung Disease) 2017 group
+COPD,Claude_Sonnet_5,Semantic drift (related but different),5,Chronic asthma with fixed airflow obstruction; Chronic allergic bronchitis; Acute exacerbation of chronic asthmatic bronchitis
+COPD,Gemini_3.6_Flash,Valid diagnosis subtype (reference gap),31,GOLD (Global Initiative for Chronic Obstructive Lung Disease) 2017 group A; GOLD (Global Initiative for Chronic Obstructive Lung Disease) 2017 group B; GOLD (Global Initiative for Chronic Obstructive Lung Disease) 2017 group C
+COPD,Gemini_3.6_Flash,Semantic drift (related but different),5,Chronic asthma with fixed airflow obstruction; Blue bloater; Acute exacerbation of chronic asthmatic bronchitis
+Asthma,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),35,Acute asthma; Asthma caused by wood dust; Acute asthma
+Asthma,GPT-5.4_Mini,History/resolved code,1,H/O: asthma
+Asthma,GPT-5.4_Mini,Risk/screening/suspected,3,Suspected asthma; Asthma suspected; At risk of asthma
+Asthma,Claude_Sonnet_5,Valid diagnosis subtype (reference gap),44,Acute asthma; Near fatal asthma; Asthma caused by wood dust
+Asthma,Claude_Sonnet_5,Semantic drift (related but different),1,AERD - aspirin exacerbated respiratory disease
+Asthma,Gemini_3.6_Flash,Valid diagnosis subtype (reference gap),102,Acute asthma; Acute severe exacerbation of allergic asthma; Exacerbation of allergic asthma due to infection
+Asthma,Gemini_3.6_Flash,Semantic drift (related but different),2,Hyperreactive airway disease; Reactive airway disease
+Insulin,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),28,Insulin degludec 100units/ml / Liraglutide 3.6mg/ml solution for injection 3ml pre-filled disposable devices; JuniorSTAR hypodermic insulin injection pen reusable for 3ml cartridge 0.5 unit dial up / range 1-30 units; JuniorSTAR hypodermic insulin injection pen reusable for 3ml cartridge 0.5 unit dial up / range 1-30 units
+Insulin,GPT-5.4_Mini,Semantic drift (related but different),28,Humalog Junior KwikPen 100units/ml solution for injection 3ml pre-filled pens; Semglee 100units/ml solution for injection 3ml pre-filled pens; Suliqua 100units/ml / 33micrograms/ml solution for injection 3ml pre-filled SoloStar pens
+Insulin,Claude_Sonnet_5,Valid diagnosis subtype (reference gap),4,Insulin degludec 100units/ml / Liraglutide 3.6mg/ml solution for injection 3ml pre-filled disposable devices; Insulin glargine 100units/ml / Lixisenatide 33micrograms/ml solution for injection 3ml pre-filled disposable devices; Insulin glargine 100units/ml / Lixisenatide 50micrograms/ml solution for injection 3ml pre-filled disposable devices
+Insulin,Claude_Sonnet_5,Semantic drift (related but different),34,Humalog Junior KwikPen 100units/ml solution for injection 3ml pre-filled pens; Semglee 100units/ml solution for injection 3ml pre-filled pens; Suliqua 100units/ml / 33micrograms/ml solution for injection 3ml pre-filled SoloStar pens
+Insulin,Gemini_3.6_Flash,Valid diagnosis subtype (reference gap),4,Insulin degludec 100units/ml / Liraglutide 3.6mg/ml solution for injection 3ml pre-filled disposable devices; Insulin glargine 100units/ml / Lixisenatide 33micrograms/ml solution for injection 3ml pre-filled disposable devices; Insulin glargine 100units/ml / Lixisenatide 50micrograms/ml solution for injection 3ml pre-filled disposable devices
+Insulin,Gemini_3.6_Flash,Semantic drift (related but different),34,Humalog Junior KwikPen 100units/ml solution for injection 3ml pre-filled pens; Semglee 100units/ml solution for injection 3ml pre-filled pens; Suliqua 100units/ml / 33micrograms/ml solution for injection 3ml pre-filled SoloStar pens
+Metformin,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),5,Metformin 1g tablets; Metformin 850mg modified-release tablets; Glucophage SR 850mg tablets
+Metformin,GPT-5.4_Mini,Semantic drift (related but different),3,Janumet 50mg/1000mg tablets; Vokanamet 50mg/850mg tablets; Vokanamet 50mg/1000mg tablets
+Metformin,Claude_Sonnet_5,Valid diagnosis subtype (reference gap),5,Metformin 1g tablets; Metformin 850mg modified-release tablets; Glucophage SR 850mg tablets
+Metformin,Claude_Sonnet_5,Semantic drift (related but different),13,Metuxtan SR 500mg tablets; Sukkarto SR 750mg tablets; Glucorex SR 500mg tablets
+Metformin,Gemini_3.6_Flash,Valid diagnosis subtype (reference gap),5,Metformin 1g tablets; Metformin 850mg modified-release tablets; Glucophage SR 850mg tablets
+Metformin,Gemini_3.6_Flash,Semantic drift (related but different),13,Metuxtan SR 500mg tablets; Sukkarto SR 750mg tablets; Glucorex SR 500mg tablets

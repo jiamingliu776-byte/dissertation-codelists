@@ -1,0 +1,23 @@
+[iter 0] search('peripheral arterial disease', k=50) => 50 results
+[iter 0] search('peripheral vascular disease', k=50) => 50 results
+[iter 0] search('intermittent claudication', k=50) => 50 results
+[iter 0] search('arterial insufficiency', k=50) => 50 results
+[iter 1] search('atherosclerosis of limb', k=50) => 50 results
+[iter 1] search('critical limb ischaemia', k=50) => 50 results
+[iter 1] search('arteriosclerosis obliterans', k=50) => 50 results
+[iter 1] search('femoral artery occlusion', k=50) => 50 results
+[iter 2] search('Leriche', k=50) => 50 results
+[iter 2] search('Buerger', k=50) => 50 results
+[iter 2] search('aortoiliac', k=50) => 50 results
+[iter 2] search('femoropopliteal', k=50) => 50 results
+[iter 3] search('peripheral vascular disorder', k=50) => 50 results
+[iter 3] search('arterial stenosis', k=50) => 50 results
+[iter 3] search('lower limb arterial', k=50) => 50 results
+[iter 3] search('ischemia lower limb', k=50) => 50 results
+[iter 4] search('atherosclerosis lower', k=100) => 100 results
+[iter 4] search('arterial ulcer', k=100) => 100 results
+[iter 4] search('ischaemic foot', k=100) => 100 results
+[iter 4] search('ischaemic leg', k=100) => 100 results
+[iter 5] search('popliteal artery stenosis', k=50) => 50 results
+[iter 5] search('tibial artery stenosis', k=50) => 50 results
+[iter 6] submit_codelist(206 codes)

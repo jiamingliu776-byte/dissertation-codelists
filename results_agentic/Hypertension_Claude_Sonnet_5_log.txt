@@ -1,0 +1,15 @@
+[iter 0] search('hypertension', k=200) => 200 results
+[iter 0] search('high blood pressure', k=100) => 100 results
+[iter 1] search('accelerated hypertension', k=30) => 30 results
+[iter 1] search('hypertensive nephrosclerosis', k=30) => 30 results
+[iter 1] search('portal hypertension', k=20) => 20 results
+[iter 1] search('pulmonary hypertension', k=20) => 20 results
+[iter 2] search('hypertensive heart and renal disease', k=30) => 30 results
+[iter 2] search('borderline hypertension', k=20) => 20 results
+[iter 2] search('hypertensive chronic kidney disease', k=30) => 30 results
+[iter 2] search('hypertension NOS', k=30) => 30 results
+[iter 3] search('malignant hypertensive chronic kidney disease stage', k=30) => 30 results
+[iter 3] search('chronic kidney disease due to benign hypertension stage', k=30) => 30 results
+[iter 3] search('renovascular hypertension', k=15) => 15 results
+[iter 3] search('hypertension in chronic kidney disease due to diabetes stage 1', k=15) => 15 results
+[iter 4] submit_codelist(153 codes)

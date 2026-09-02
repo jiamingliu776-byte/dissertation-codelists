@@ -1,0 +1,9 @@
+[iter 0] search('metformin', k=200) => 200 results
+[iter 1] search('metformin', k=200) => 200 results
+[iter 2] search('segluromet', k=50) => 50 results
+[iter 3] search('ertugliflozin', k=50) => 50 results
+[iter 4] search('glucophage', k=50) => 50 results
+[iter 5] search('janumet', k=50) => 50 results
+[iter 6] search('alogliptin', k=50) => 50 results
+[iter 7] search('vipdomet', k=50) => 50 results
+[iter 8] submit_codelist(91 codes)

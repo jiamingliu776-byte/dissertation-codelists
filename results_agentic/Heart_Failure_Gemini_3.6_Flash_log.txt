@@ -1,0 +1,11 @@
+[iter 0] search('heart failure', k=50) => 50 results
+[iter 1] search('cardiac failure', k=200) => 200 results
+[iter 2] search('ventricular failure', k=100) => 100 results
+[iter 3] search('cor pulmonale', k=50) => 50 results
+[iter 4] search('hypertensive heart failure', k=50) => 50 results
+[iter 5] search('rheumatic heart failure', k=50) => 50 results
+[iter 6] search('ejection fraction heart failure', k=50) => 50 results
+[iter 7] search('cardiac insufficiency', k=50) => 50 results
+[iter 8] search('myocardial failure', k=50) => 50 results
+[iter 9] search('heart failure', k=200) => 200 results
+[iter 10] submit_codelist(99 codes)

@@ -1,0 +1,9 @@
+[iter 0] search('heart failure', k=50) => 50 results
+[iter 0] search('cardiac failure', k=50) => 50 results
+[iter 0] search('congestive heart failure', k=50) => 50 results
+[iter 0] search('left ventricular failure', k=50) => 50 results
+[iter 0] search('right heart failure', k=50) => 50 results
+[iter 0] search('biventricular failure', k=50) => 50 results
+[iter 0] search('heart failure with reduced ejection fraction', k=50) => 50 results
+[iter 0] search('heart failure with preserved ejection fraction', k=50) => 50 results
+[iter 1] submit_codelist(65 codes)

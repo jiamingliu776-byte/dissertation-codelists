@@ -1,0 +1,13 @@
+[iter 0] search('chronic obstructive pulmonary disease', k=100) => 100 results
+[iter 0] search('COPD', k=100) => 100 results
+[iter 1] search('emphysema', k=50) => 50 results
+[iter 1] search('chronic bronchitis', k=50) => 50 results
+[iter 1] search('acute exacerbation of chronic obstructive pulmonary disease', k=30) => 30 results
+[iter 2] search('chronic obstructive asthma', k=30) => 30 results
+[iter 2] search('bronchitis with airway obstruction', k=20) => 20 results
+[iter 3] search('GOLD stage COPD', k=30) => 30 results
+[iter 3] search('emphysema alpha-1 antitrypsin deficiency', k=20) => 20 results
+[iter 4] search('GOLD 2017 spirometric grade 1', k=10) => 10 results
+[iter 4] search('GOLD 2017 spirometric grade 3', k=10) => 10 results
+[iter 4] search('GOLD 2017 spirometric grade 4', k=10) => 10 results
+[iter 5] submit_codelist(111 codes)

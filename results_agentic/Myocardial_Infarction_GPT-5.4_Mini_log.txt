@@ -1,0 +1,7 @@
+[iter 0] search('myocardial infarction', k=50) => 50 results
+[iter 0] search('heart attack', k=50) => 50 results
+[iter 0] search('acute myocardial infarction', k=50) => 50 results
+[iter 0] search('old myocardial infarction', k=50) => 50 results
+[iter 0] search('silent myocardial infarction', k=50) => 50 results
+[iter 0] search('subendocardial infarction', k=50) => 50 results
+[iter 1] submit_codelist(81 codes)

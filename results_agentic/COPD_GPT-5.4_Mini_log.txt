@@ -1,0 +1,6 @@
+[iter 0] search('COPD', k=50) => 50 results
+[iter 0] search('chronic obstructive pulmonary disease', k=50) => 50 results
+[iter 0] search('chronic bronchitis', k=50) => 50 results
+[iter 0] search('emphysema', k=50) => 50 results
+[iter 0] search('obstructive airways disease', k=50) => 50 results
+[iter 1] submit_codelist(62 codes)

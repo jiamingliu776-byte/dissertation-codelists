@@ -1,0 +1,4 @@
+[iter 0] search('asthma', k=200) => 200 results
+[iter 1] search('reactive airway disease', k=20) => 20 results
+[iter 1] search('wheezy bronchitis', k=20) => 20 results
+[iter 2] submit_codelist(97 codes)

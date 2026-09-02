@@ -1,0 +1,5 @@
+[iter 0] search('metformin', k=200) => 200 results
+[iter 0] search('metformin hydrochloride', k=200) => 200 results
+[iter 0] search('metformin hydrochloride sustained release', k=200) => 200 results
+[iter 0] search('metformin and', k=200) => 200 results
+[iter 1] submit_codelist(61 codes)

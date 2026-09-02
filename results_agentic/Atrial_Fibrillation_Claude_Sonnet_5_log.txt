@@ -1,0 +1,10 @@
+[iter 0] search('atrial fibrillation', k=100) => 100 results
+[iter 0] search('AF', k=50) => 50 results
+[iter 1] search('auricular fibrillation', k=30) => 30 results
+[iter 1] search('AF with rapid ventricular response', k=30) => 30 results
+[iter 1] search('a-fib', k=30) => 30 results
+[iter 2] search('nonvalvular atrial fibrillation', k=20) => 20 results
+[iter 2] search('postoperative atrial fibrillation', k=20) => 20 results
+[iter 2] search('new onset atrial fibrillation', k=20) => 20 results
+[iter 2] search('silent atrial fibrillation', k=20) => 20 results
+[iter 3] submit_codelist(33 codes)

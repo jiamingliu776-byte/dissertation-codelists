@@ -1,0 +1,19 @@
+[iter 0] search('peripheral arterial disease', k=100) => 100 results
+[iter 0] search('peripheral vascular disease', k=100) => 100 results
+[iter 1] search('intermittent claudication', k=50) => 50 results
+[iter 1] search('atherosclerosis of extremities', k=50) => 50 results
+[iter 1] search('critical limb ischaemia', k=50) => 50 results
+[iter 1] search('occlusion of artery of leg', k=50) => 50 results
+[iter 2] search('stenosis of artery of lower limb', k=50) => 50 results
+[iter 2] search('thromboangiitis obliterans Buerger', k=30) => 30 results
+[iter 2] search('Leriche syndrome aortoiliac occlusive disease', k=30) => 30 results
+[iter 2] search('gangrene due to atherosclerosis', k=30) => 30 results
+[iter 2] search('arterial ulcer leg', k=30) => 30 results
+[iter 2] search('arteriosclerosis obliterans', k=30) => 30 results
+[iter 3] search('crural artery occlusion tibial', k=30) => 30 results
+[iter 3] search('diabetic foot ischaemia arteriopathy', k=30) => 30 results
+[iter 3] search('rest pain leg ischaemic', k=30) => 30 results
+[iter 3] search('bypass graft occlusion lower limb atherosclerosis', k=30) => 30 results
+[iter 3] search('acute limb ischaemia embolism thrombosis leg', k=40) => 40 results
+[iter 4] No tool calls — nudging to submit.
+[iter 5] submit_codelist(204 codes)

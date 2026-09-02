@@ -1,0 +1,7 @@
+[iter 0] search('atrial fibrillation', k=50) => 50 results
+[iter 0] search('AF', k=50) => 50 results
+[iter 0] search('paroxysmal atrial fibrillation', k=50) => 50 results
+[iter 0] search('persistent atrial fibrillation', k=50) => 50 results
+[iter 0] search('chronic atrial fibrillation', k=50) => 50 results
+[iter 0] search('permanent atrial fibrillation', k=50) => 50 results
+[iter 1] submit_codelist(46 codes)

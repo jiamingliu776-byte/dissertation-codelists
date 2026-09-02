@@ -1,0 +1,18 @@
+[iter 0] search('cerebrovascular disease', k=100) => 100 results
+[iter 0] search('stroke', k=100) => 100 results
+[iter 0] search('transient ischaemic attack', k=50) => 50 results
+[iter 0] search('cerebral infarction', k=50) => 50 results
+[iter 0] search('intracerebral haemorrhage', k=50) => 50 results
+[iter 0] search('subarachnoid haemorrhage', k=50) => 50 results
+[iter 1] search('cerebral aneurysm', k=50) => 50 results
+[iter 1] search('vertebrobasilar insufficiency', k=50) => 50 results
+[iter 1] search('precerebral artery occlusion without infarction', k=50) => 50 results
+[iter 1] search('moyamoya disease', k=30) => 30 results
+[iter 1] search('carotid artery stenosis', k=50) => 50 results
+[iter 1] search('cerebral venous thrombosis', k=30) => 30 results
+[iter 1] search('hypertensive encephalopathy', k=30) => 30 results
+[iter 1] search('lacunar syndrome', k=30) => 30 results
+[iter 1] search('cerebral atherosclerosis', k=30) => 30 results
+[iter 1] search('arteriovenous malformation brain', k=30) => 30 results
+[iter 2] No tool calls — nudging to submit.
+[iter 3] submit_codelist(426 codes)

@@ -1,0 +1,10 @@
+[iter 0] search('hypertension', k=50) => 50 results
+[iter 1] search('essential hypertension', k=200) => 200 results
+[iter 2] search('stage 3 hypertension', k=100) => 100 results
+[iter 3] search('renovascular hypertension', k=100) => 100 results
+[iter 4] search('hypertensive encephalopathy', k=100) => 100 results
+[iter 5] search('isolated systolic hypertension', k=100) => 100 results
+[iter 6] search('borderline hypertension', k=50) => 50 results
+[iter 7] search('hypertensive', k=100) => 100 results
+[iter 8] search('raised blood pressure', k=50) => 50 results
+[iter 9] submit_codelist(174 codes)

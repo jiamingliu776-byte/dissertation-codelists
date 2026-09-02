@@ -1,0 +1,181 @@
+Condition,Model,FP_Category,Count
+Atrial Fibrillation,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),15
+Atrial Fibrillation,GPT-5.4_Mini,Semantic drift (related but different),5
+Atrial Fibrillation,GPT-5.4_Mini,History/resolved code,4
+Atrial Fibrillation,GPT-5.4_Mini,Risk/screening/suspected,2
+Atrial Fibrillation,GPT-5.4_Mini,Administrative/monitoring,3
+Atrial Fibrillation,GPT-5.4_Mini,Exclusion/ruled-out code,1
+Atrial Fibrillation,Claude_Sonnet_5,Valid diagnosis subtype (reference gap),15
+Atrial Fibrillation,Claude_Sonnet_5,Semantic drift (related but different),0
+Atrial Fibrillation,Claude_Sonnet_5,History/resolved code,2
+Atrial Fibrillation,Claude_Sonnet_5,Risk/screening/suspected,0
+Atrial Fibrillation,Claude_Sonnet_5,Administrative/monitoring,0
+Atrial Fibrillation,Claude_Sonnet_5,Exclusion/ruled-out code,0
+Atrial Fibrillation,Gemini_3.6_Flash,Valid diagnosis subtype (reference gap),15
+Atrial Fibrillation,Gemini_3.6_Flash,Semantic drift (related but different),0
+Atrial Fibrillation,Gemini_3.6_Flash,History/resolved code,0
+Atrial Fibrillation,Gemini_3.6_Flash,Risk/screening/suspected,0
+Atrial Fibrillation,Gemini_3.6_Flash,Administrative/monitoring,0
+Atrial Fibrillation,Gemini_3.6_Flash,Exclusion/ruled-out code,0
+Heart Failure,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),39
+Heart Failure,GPT-5.4_Mini,Semantic drift (related but different),1
+Heart Failure,GPT-5.4_Mini,History/resolved code,1
+Heart Failure,GPT-5.4_Mini,Risk/screening/suspected,0
+Heart Failure,GPT-5.4_Mini,Administrative/monitoring,1
+Heart Failure,GPT-5.4_Mini,Exclusion/ruled-out code,0
+Heart Failure,Claude_Sonnet_5,Valid diagnosis subtype (reference gap),70
+Heart Failure,Claude_Sonnet_5,Semantic drift (related but different),25
+Heart Failure,Claude_Sonnet_5,History/resolved code,0
+Heart Failure,Claude_Sonnet_5,Risk/screening/suspected,0
+Heart Failure,Claude_Sonnet_5,Administrative/monitoring,0
+Heart Failure,Claude_Sonnet_5,Exclusion/ruled-out code,0
+Heart Failure,Gemini_3.6_Flash,Valid diagnosis subtype (reference gap),64
+Heart Failure,Gemini_3.6_Flash,Semantic drift (related but different),6
+Heart Failure,Gemini_3.6_Flash,History/resolved code,0
+Heart Failure,Gemini_3.6_Flash,Risk/screening/suspected,0
+Heart Failure,Gemini_3.6_Flash,Administrative/monitoring,0
+Heart Failure,Gemini_3.6_Flash,Exclusion/ruled-out code,0
+Cerebrovascular Disease,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),49
+Cerebrovascular Disease,GPT-5.4_Mini,Semantic drift (related but different),7
+Cerebrovascular Disease,GPT-5.4_Mini,History/resolved code,0
+Cerebrovascular Disease,GPT-5.4_Mini,Risk/screening/suspected,0
+Cerebrovascular Disease,GPT-5.4_Mini,Administrative/monitoring,0
+Cerebrovascular Disease,GPT-5.4_Mini,Exclusion/ruled-out code,0
+Cerebrovascular Disease,Claude_Sonnet_5,Valid diagnosis subtype (reference gap),210
+Cerebrovascular Disease,Claude_Sonnet_5,Semantic drift (related but different),135
+Cerebrovascular Disease,Claude_Sonnet_5,History/resolved code,9
+Cerebrovascular Disease,Claude_Sonnet_5,Risk/screening/suspected,0
+Cerebrovascular Disease,Claude_Sonnet_5,Administrative/monitoring,0
+Cerebrovascular Disease,Claude_Sonnet_5,Exclusion/ruled-out code,0
+Cerebrovascular Disease,Gemini_3.6_Flash,Valid diagnosis subtype (reference gap),138
+Cerebrovascular Disease,Gemini_3.6_Flash,Semantic drift (related but different),115
+Cerebrovascular Disease,Gemini_3.6_Flash,History/resolved code,0
+Cerebrovascular Disease,Gemini_3.6_Flash,Risk/screening/suspected,0
+Cerebrovascular Disease,Gemini_3.6_Flash,Administrative/monitoring,0
+Cerebrovascular Disease,Gemini_3.6_Flash,Exclusion/ruled-out code,0
+Hypertension,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),45
+Hypertension,GPT-5.4_Mini,Semantic drift (related but different),2
+Hypertension,GPT-5.4_Mini,History/resolved code,0
+Hypertension,GPT-5.4_Mini,Risk/screening/suspected,2
+Hypertension,GPT-5.4_Mini,Administrative/monitoring,0
+Hypertension,GPT-5.4_Mini,Exclusion/ruled-out code,0
+Hypertension,Claude_Sonnet_5,Valid diagnosis subtype (reference gap),64
+Hypertension,Claude_Sonnet_5,Semantic drift (related but different),0
+Hypertension,Claude_Sonnet_5,History/resolved code,0
+Hypertension,Claude_Sonnet_5,Risk/screening/suspected,0
+Hypertension,Claude_Sonnet_5,Administrative/monitoring,0
+Hypertension,Claude_Sonnet_5,Exclusion/ruled-out code,0
+Hypertension,Gemini_3.6_Flash,Valid diagnosis subtype (reference gap),72
+Hypertension,Gemini_3.6_Flash,Semantic drift (related but different),1
+Hypertension,Gemini_3.6_Flash,History/resolved code,0
+Hypertension,Gemini_3.6_Flash,Risk/screening/suspected,0
+Hypertension,Gemini_3.6_Flash,Administrative/monitoring,1
+Hypertension,Gemini_3.6_Flash,Exclusion/ruled-out code,0
+Myocardial Infarction,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),32
+Myocardial Infarction,GPT-5.4_Mini,Semantic drift (related but different),0
+Myocardial Infarction,GPT-5.4_Mini,History/resolved code,1
+Myocardial Infarction,GPT-5.4_Mini,Risk/screening/suspected,0
+Myocardial Infarction,GPT-5.4_Mini,Administrative/monitoring,0
+Myocardial Infarction,GPT-5.4_Mini,Exclusion/ruled-out code,1
+Myocardial Infarction,Claude_Sonnet_5,Valid diagnosis subtype (reference gap),106
+Myocardial Infarction,Claude_Sonnet_5,Semantic drift (related but different),1
+Myocardial Infarction,Claude_Sonnet_5,History/resolved code,0
+Myocardial Infarction,Claude_Sonnet_5,Risk/screening/suspected,0
+Myocardial Infarction,Claude_Sonnet_5,Administrative/monitoring,0
+Myocardial Infarction,Claude_Sonnet_5,Exclusion/ruled-out code,0
+Myocardial Infarction,Gemini_3.6_Flash,Valid diagnosis subtype (reference gap),108
+Myocardial Infarction,Gemini_3.6_Flash,Semantic drift (related but different),1
+Myocardial Infarction,Gemini_3.6_Flash,History/resolved code,0
+Myocardial Infarction,Gemini_3.6_Flash,Risk/screening/suspected,0
+Myocardial Infarction,Gemini_3.6_Flash,Administrative/monitoring,0
+Myocardial Infarction,Gemini_3.6_Flash,Exclusion/ruled-out code,0
+Peripheral Arterial Disease,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),14
+Peripheral Arterial Disease,GPT-5.4_Mini,Semantic drift (related but different),5
+Peripheral Arterial Disease,GPT-5.4_Mini,History/resolved code,0
+Peripheral Arterial Disease,GPT-5.4_Mini,Risk/screening/suspected,0
+Peripheral Arterial Disease,GPT-5.4_Mini,Administrative/monitoring,0
+Peripheral Arterial Disease,GPT-5.4_Mini,Exclusion/ruled-out code,0
+Peripheral Arterial Disease,Claude_Sonnet_5,Valid diagnosis subtype (reference gap),78
+Peripheral Arterial Disease,Claude_Sonnet_5,Semantic drift (related but different),69
+Peripheral Arterial Disease,Claude_Sonnet_5,History/resolved code,4
+Peripheral Arterial Disease,Claude_Sonnet_5,Risk/screening/suspected,0
+Peripheral Arterial Disease,Claude_Sonnet_5,Administrative/monitoring,0
+Peripheral Arterial Disease,Claude_Sonnet_5,Exclusion/ruled-out code,0
+Peripheral Arterial Disease,Gemini_3.6_Flash,Valid diagnosis subtype (reference gap),85
+Peripheral Arterial Disease,Gemini_3.6_Flash,Semantic drift (related but different),71
+Peripheral Arterial Disease,Gemini_3.6_Flash,History/resolved code,0
+Peripheral Arterial Disease,Gemini_3.6_Flash,Risk/screening/suspected,0
+Peripheral Arterial Disease,Gemini_3.6_Flash,Administrative/monitoring,0
+Peripheral Arterial Disease,Gemini_3.6_Flash,Exclusion/ruled-out code,0
+COPD,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),7
+COPD,GPT-5.4_Mini,Semantic drift (related but different),0
+COPD,GPT-5.4_Mini,History/resolved code,0
+COPD,GPT-5.4_Mini,Risk/screening/suspected,3
+COPD,GPT-5.4_Mini,Administrative/monitoring,2
+COPD,GPT-5.4_Mini,Exclusion/ruled-out code,1
+COPD,Claude_Sonnet_5,Valid diagnosis subtype (reference gap),31
+COPD,Claude_Sonnet_5,Semantic drift (related but different),5
+COPD,Claude_Sonnet_5,History/resolved code,0
+COPD,Claude_Sonnet_5,Risk/screening/suspected,0
+COPD,Claude_Sonnet_5,Administrative/monitoring,0
+COPD,Claude_Sonnet_5,Exclusion/ruled-out code,0
+COPD,Gemini_3.6_Flash,Valid diagnosis subtype (reference gap),31
+COPD,Gemini_3.6_Flash,Semantic drift (related but different),5
+COPD,Gemini_3.6_Flash,History/resolved code,0
+COPD,Gemini_3.6_Flash,Risk/screening/suspected,0
+COPD,Gemini_3.6_Flash,Administrative/monitoring,0
+COPD,Gemini_3.6_Flash,Exclusion/ruled-out code,0
+Asthma,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),35
+Asthma,GPT-5.4_Mini,Semantic drift (related but different),0
+Asthma,GPT-5.4_Mini,History/resolved code,1
+Asthma,GPT-5.4_Mini,Risk/screening/suspected,3
+Asthma,GPT-5.4_Mini,Administrative/monitoring,0
+Asthma,GPT-5.4_Mini,Exclusion/ruled-out code,0
+Asthma,Claude_Sonnet_5,Valid diagnosis subtype (reference gap),44
+Asthma,Claude_Sonnet_5,Semantic drift (related but different),1
+Asthma,Claude_Sonnet_5,History/resolved code,0
+Asthma,Claude_Sonnet_5,Risk/screening/suspected,0
+Asthma,Claude_Sonnet_5,Administrative/monitoring,0
+Asthma,Claude_Sonnet_5,Exclusion/ruled-out code,0
+Asthma,Gemini_3.6_Flash,Valid diagnosis subtype (reference gap),102
+Asthma,Gemini_3.6_Flash,Semantic drift (related but different),2
+Asthma,Gemini_3.6_Flash,History/resolved code,0
+Asthma,Gemini_3.6_Flash,Risk/screening/suspected,0
+Asthma,Gemini_3.6_Flash,Administrative/monitoring,0
+Asthma,Gemini_3.6_Flash,Exclusion/ruled-out code,0
+Insulin,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),28
+Insulin,GPT-5.4_Mini,Semantic drift (related but different),28
+Insulin,GPT-5.4_Mini,History/resolved code,0
+Insulin,GPT-5.4_Mini,Risk/screening/suspected,0
+Insulin,GPT-5.4_Mini,Administrative/monitoring,0
+Insulin,GPT-5.4_Mini,Exclusion/ruled-out code,0
+Insulin,Claude_Sonnet_5,Valid diagnosis subtype (reference gap),4
+Insulin,Claude_Sonnet_5,Semantic drift (related but different),34
+Insulin,Claude_Sonnet_5,History/resolved code,0
+Insulin,Claude_Sonnet_5,Risk/screening/suspected,0
+Insulin,Claude_Sonnet_5,Administrative/monitoring,0
+Insulin,Claude_Sonnet_5,Exclusion/ruled-out code,0
+Insulin,Gemini_3.6_Flash,Valid diagnosis subtype (reference gap),4
+Insulin,Gemini_3.6_Flash,Semantic drift (related but different),34
+Insulin,Gemini_3.6_Flash,History/resolved code,0
+Insulin,Gemini_3.6_Flash,Risk/screening/suspected,0
+Insulin,Gemini_3.6_Flash,Administrative/monitoring,0
+Insulin,Gemini_3.6_Flash,Exclusion/ruled-out code,0
+Metformin,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),5
+Metformin,GPT-5.4_Mini,Semantic drift (related but different),3
+Metformin,GPT-5.4_Mini,History/resolved code,0
+Metformin,GPT-5.4_Mini,Risk/screening/suspected,0
+Metformin,GPT-5.4_Mini,Administrative/monitoring,0
+Metformin,GPT-5.4_Mini,Exclusion/ruled-out code,0
+Metformin,Claude_Sonnet_5,Valid diagnosis subtype (reference gap),5
+Metformin,Claude_Sonnet_5,Semantic drift (related but different),13
+Metformin,Claude_Sonnet_5,History/resolved code,0
+Metformin,Claude_Sonnet_5,Risk/screening/suspected,0
+Metformin,Claude_Sonnet_5,Administrative/monitoring,0
+Metformin,Claude_Sonnet_5,Exclusion/ruled-out code,0
+Metformin,Gemini_3.6_Flash,Valid diagnosis subtype (reference gap),5
+Metformin,Gemini_3.6_Flash,Semantic drift (related but different),13
+Metformin,Gemini_3.6_Flash,History/resolved code,0
+Metformin,Gemini_3.6_Flash,Risk/screening/suspected,0
+Metformin,Gemini_3.6_Flash,Administrative/monitoring,0
+Metformin,Gemini_3.6_Flash,Exclusion/ruled-out code,0

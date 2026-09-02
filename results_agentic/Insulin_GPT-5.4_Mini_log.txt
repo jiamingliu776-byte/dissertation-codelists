@@ -1,0 +1,9 @@
+[iter 0] search('insulin', k=200) => 200 results
+[iter 0] search('insulin aspart', k=50) => 50 results
+[iter 0] search('insulin glargine', k=50) => 50 results
+[iter 0] search('insulin detemir', k=50) => 50 results
+[iter 0] search('insulin lispro', k=50) => 50 results
+[iter 0] search('insulin degludec', k=50) => 50 results
+[iter 0] search('biphasic insulin', k=50) => 50 results
+[iter 0] search('protamine', k=50) => 50 results
+[iter 1] submit_codelist(169 codes)

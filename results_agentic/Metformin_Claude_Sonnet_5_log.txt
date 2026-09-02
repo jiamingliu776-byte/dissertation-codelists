@@ -1,0 +1,26 @@
+[iter 0] search('Metformin', k=200) => 200 results
+[iter 1] search('Janumet', k=20) => 20 results
+[iter 1] search('Competact', k=20) => 20 results
+[iter 1] search('Avandamet', k=20) => 20 results
+[iter 1] search('Eucreas', k=20) => 20 results
+[iter 1] search('Komboglyze', k=20) => 20 results
+[iter 1] search('Vipdomet', k=20) => 20 results
+[iter 1] search('Vokanamet', k=20) => 20 results
+[iter 1] search('Xigduo', k=20) => 20 results
+[iter 1] search('Synjardy', k=20) => 20 results
+[iter 1] search('Jentadueto', k=20) => 20 results
+[iter 1] search('Segluromet', k=20) => 20 results
+[iter 1] search('Ebymect', k=20) => 20 results
+[iter 1] search('Galvumet', k=20) => 20 results
+[iter 1] search('Bolamyn', k=20) => 20 results
+[iter 1] search('metformin hydrochloride', k=100) => 100 results
+[iter 2] search('Glucophage', k=30) => 30 results
+[iter 2] search('Bolamyn tablets', k=20) => 20 results
+[iter 2] search('Diagemet', k=20) => 20 results
+[iter 2] search('XMET', k=10) => 10 results
+[iter 2] search('Morform', k=10) => 10 results
+[iter 2] search('Metsol', k=10) => 10 results
+[iter 2] search('Nitcomb', k=10) => 10 results
+[iter 2] search('metformin oral powder', k=30) => 30 results
+[iter 2] search('metformin modified release', k=50) => 50 results
+[iter 3] submit_codelist(91 codes)

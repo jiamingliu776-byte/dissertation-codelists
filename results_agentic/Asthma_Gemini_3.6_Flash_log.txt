@@ -1,0 +1,10 @@
+[iter 0] search('asthma', k=200) => 200 results
+[iter 1] search('status asthmaticus', k=200) => 200 results
+[iter 2] search('reactive airway', k=50) => 50 results
+[iter 3] search('asthmatic', k=200) => 200 results
+[iter 4] search('chronic obstructive asthma', k=50) => 50 results
+[iter 5] search('persistent asthma', k=50) => 50 results
+[iter 6] search('extrinsic asthma', k=50) => 50 results
+[iter 7] search('induced asthma', k=100) => 100 results
+[iter 8] search('asthma exacerbation', k=100) => 100 results
+[iter 9] submit_codelist(164 codes)

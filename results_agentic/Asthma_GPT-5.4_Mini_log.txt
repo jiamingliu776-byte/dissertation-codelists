@@ -1,0 +1,6 @@
+[iter 0] search('asthma', k=50) => 50 results
+[iter 0] search('bronchial asthma', k=50) => 50 results
+[iter 0] search('exercise induced asthma', k=50) => 50 results
+[iter 0] search('occupational asthma', k=50) => 50 results
+[iter 0] search('asthmatic', k=50) => 50 results
+[iter 1] submit_codelist(88 codes)

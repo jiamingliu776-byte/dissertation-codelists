@@ -1,0 +1,8 @@
+[iter 0] search('atrial fibrillation', k=50) => 50 results
+[iter 1] search('atrial fibrillation', k=200) => 200 results
+[iter 2] search('auricular fibrillation', k=50) => 50 results
+[iter 3] search('a-fib', k=50) => 50 results
+[iter 4] search('fibrillation', k=100) => 100 results
+[iter 5] search('paroxysmal atrial', k=50) => 50 results
+[iter 6] search('rheumatic atrial fibrillation', k=50) => 50 results
+[iter 7] submit_codelist(31 codes)

@@ -1,0 +1,9 @@
+[iter 0] search('insulin', k=50) => 50 results
+[iter 1] search('insulin', k=200) => 200 results
+[iter 2] search('novomix', k=200) => 200 results
+[iter 3] search('isophane', k=200) => 200 results
+[iter 4] search('Ryzodeg', k=200) => 200 results
+[iter 5] search('protaphane', k=50) => 50 results
+[iter 6] search('Humalog Mix50', k=50) => 50 results
+[iter 7] search('Insuman', k=50) => 50 results
+[iter 8] submit_codelist(183 codes)

@@ -1,0 +1,27 @@
+[iter 0] search('insulin', k=200) => 200 results
+[iter 1] search('Novomix', k=50) => 50 results
+[iter 1] search('Xultophy', k=50) => 50 results
+[iter 1] search('Ryzodeg', k=50) => 50 results
+[iter 1] search('Semglee', k=50) => 50 results
+[iter 1] search('Humulin', k=100) => 100 results
+[iter 1] search('Insuman', k=100) => 100 results
+[iter 1] search('insulin zinc suspension', k=50) => 50 results
+[iter 1] search('Ultratard', k=30) => 30 results
+[iter 1] search('Hypurin', k=100) => 100 results
+[iter 1] search('insulin biphasic', k=50) => 50 results
+[iter 2] search('Actrapid', k=50) => 50 results
+[iter 2] search('Levemir', k=50) => 50 results
+[iter 2] search('Fiasp', k=50) => 50 results
+[iter 2] search('Tresiba', k=50) => 50 results
+[iter 2] search('Lantus', k=50) => 50 results
+[iter 2] search('Toujeo', k=50) => 50 results
+[iter 2] search('Abasaglar', k=50) => 50 results
+[iter 2] search('insulin glargine biosimilar', k=50) => 50 results
+[iter 2] search('Humalog', k=80) => 80 results
+[iter 2] search('NovoRapid', k=50) => 50 results
+[iter 2] search('Velosulin Monotard human', k=30) => 30 results
+[iter 2] search('Human Actrapid Human Velosulin', k=30) => 30 results
+[iter 2] search('Insulin porcine', k=50) => 50 results
+[iter 2] search('Insulin bovine', k=50) => 50 results
+[iter 2] search('insulin pen needle', k=5) => 5 results
+[iter 3] submit_codelist(183 codes)

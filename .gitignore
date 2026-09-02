@@ -1,0 +1,52 @@
+# Large embedding files (regenerate with embed_dictionary.py)
+*.npy
+
+# CPRD Aurum dictionaries (restricted data, not redistributable)
+CPRDAurum*.txt
+med_metadata.csv
+prod_metadata.csv
+
+# Reference codelists (sourced from ClinicalCodes, HDR UK, LSHTM)
+AF-*.csv
+AF-*.txt
+heart failrue_final_matched.csv
+cerebrovascular disease_final_matched.csv
+hypertension.txt
+myocardial infraction.txt
+peripheral.txt
+COPD.txt
+asthma.txt
+diabetes.txt
+insulin.csv
+insulin_matched.csv
+insulin_final_matched.csv
+metformin.csv
+metformin_matched.csv
+metformin_final_matched.csv
+
+# Old/archived results
+results_agentic/_old_runs/
+
+# Test and scratch files
+test_*.py
+__pycache__/
+*.pyc
+
+# Old pipeline versions
+rag_pipeline.py
+rag_pipeline_v2.py
+
+# One-off scripts
+run_gemini_cvd_retry.py
+fuzzy_matching.py
+matching_analysis.py
+text_matching.py
+gen_tables.py
+discrepancy_analysis.py
+
+# IDE
+.vscode/
+.idea/
+
+# API keys should NEVER be committed
+.env

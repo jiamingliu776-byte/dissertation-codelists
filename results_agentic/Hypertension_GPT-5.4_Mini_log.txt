@@ -1,0 +1,11 @@
+[iter 0] search('hypertension', k=50) => 50 results
+[iter 0] search('high blood pressure', k=50) => 50 results
+[iter 0] search('essential hypertension', k=50) => 50 results
+[iter 0] search('secondary hypertension', k=50) => 50 results
+[iter 0] search('hypertensive disorder', k=50) => 50 results
+[iter 1] search('resistant hypertension', k=20) => 20 results
+[iter 1] search('malignant hypertension', k=20) => 20 results
+[iter 1] search('benign hypertension', k=20) => 20 results
+[iter 1] search('systemic arterial hypertension', k=20) => 20 results
+[iter 1] search('idiopathic hypertension', k=20) => 20 results
+[iter 2] submit_codelist(113 codes)

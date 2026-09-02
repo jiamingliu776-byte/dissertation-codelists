@@ -1,0 +1,11 @@
+[iter 0] search('Peripheral arterial disease', k=20) => 20 results
+[iter 0] search('Peripheral vascular disease', k=20) => 20 results
+[iter 0] search('Peripheral arterial occlusive disease', k=20) => 20 results
+[iter 0] search('Intermittent claudication', k=20) => 20 results
+[iter 0] search('Atherosclerosis of extremity arteries', k=20) => 20 results
+[iter 1] search('claudication due to atherosclerosis of limb', k=50) => 50 results
+[iter 1] search('occlusive disease of artery of lower extremity', k=50) => 50 results
+[iter 1] search('peripheral ischemic vascular disease', k=50) => 50 results
+[iter 1] search('peripheral angiopathy', k=50) => 50 results
+[iter 1] search('lower limb arterial disease', k=50) => 50 results
+[iter 2] submit_codelist(36 codes)
