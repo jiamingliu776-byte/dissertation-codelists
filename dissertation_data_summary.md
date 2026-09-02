@@ -158,16 +158,18 @@ Note on Gemini CVD: The model performed 17 searches but failed to call submit_co
 | Error Pattern | GPT-5.4 Mini | Claude Sonnet 5 | Gemini 3.6 Flash |
 |---|---:|---:|---:|
 | **Total FP** | **346** | **925** | **873** |
-| Valid diagnosis subtype (reference gap) | 269 (77.7%) | 627 (67.8%) | 624 (71.5%) |
-| Semantic drift (related condition) | 51 (14.7%) | 283 (30.6%) | 248 (28.4%) |
+| Valid diagnosis subtype (reference gap) ⚠ | 269 (77.7%) | 627 (67.8%) | 624 (71.5%) |
+| Semantic drift (related condition) ⚠ | 51 (14.7%) | 283 (30.6%) | 248 (28.4%) |
 | History/resolved code | 7 (2.0%) | 15 (1.6%) | 0 (0.0%) |
 | Risk/screening/suspected | 10 (2.9%) | 0 (0.0%) | 0 (0.0%) |
 | Administrative/monitoring | 6 (1.7%) | 0 (0.0%) | 1 (0.1%) |
 | Exclusion/ruled-out code | 3 (0.9%) | 0 (0.0%) | 0 (0.0%) |
 
+⚠ = Unsure — requires clinical review to confirm classification.
+
 FP category definitions:
-- **Valid diagnosis subtype**: Code contains the condition keyword and represents a legitimate diagnosis the reference missed (e.g., "Valvular atrial fibrillation" for AF, "Chronic heart failure" for HF)
-- **Semantic drift**: Code is clinically related but represents a different condition (e.g., "Atrial tachycardia" for AF, "Cor pulmonale" for HF)
+- **Valid diagnosis subtype** ⚠: Code contains the condition keyword and represents a legitimate diagnosis the reference missed (e.g., "Valvular atrial fibrillation" for AF, "Chronic heart failure" for HF). Classification based on term name; clinical review needed to confirm.
+- **Semantic drift** ⚠: Code is clinically related but represents a different condition (e.g., "Atrial tachycardia" for AF, "Cor pulmonale" for HF). The boundary between valid subtypes and semantic drift requires clinical expertise.
 - **History/resolved**: Past history or resolved codes (e.g., "H/O: atrial fibrillation", "Heart failure resolved")
 - **Risk/screening/suspected**: Not yet confirmed diagnosis (e.g., "At increased risk of AF", "Atrial fibrillation screening")
 - **Administrative/monitoring**: Follow-up, review, monitoring codes (e.g., "AF annual review", "AF monitoring")
@@ -183,17 +185,21 @@ FP category definitions:
 | Procedural/surgical code | 243 (20.3%) | 242 (24.8%) | 242 (25.2%) |
 | Administrative/monitoring code | 174 (14.6%) | 183 (18.7%) | 182 (19.0%) |
 | History/resolved code | 14 (1.2%) | 16 (1.6%) | 22 (2.3%) |
-| Sequelae/historical code | 16 (1.3%) | 12 (1.2%) | 12 (1.3%) |
-| Complication code | 9 (0.8%) | 7 (0.7%) | 8 (0.8%) |
+| Sequelae/historical code ⚠ | 16 (1.3%) | 12 (1.2%) | 12 (1.3%) |
+| Complication code ⚠ | 9 (0.8%) | 7 (0.7%) | 8 (0.8%) |
 | Cause-of-death code | 1 (0.1%) | 2 (0.2%) | 0 (0.0%) |
-| **Missed valid diagnosis** | **738 (61.8%)** | **515 (52.7%)** | **494 (51.5%)** |
+| Missed valid diagnosis ⚠ | 738 (61.8%) | 515 (52.7%) | 494 (51.5%) |
+
+⚠ = Unsure — requires clinical review to confirm classification.
 
 Note: 154 reference codes not present in the CPRD Aurum dictionary are excluded from this table (already reported in Table 1 as dictionary coverage gaps). Total FN here reflects only codes the AI could have found.
 
 FN category definitions:
 - **Procedural/surgical**: Surgical procedures in reference (e.g., "Percutaneous transluminal insertion of stent into femoral artery") — AI correctly excluded these since prompt asks for "current diagnosis"
 - **Administrative/monitoring**: Follow-up, QOF, screening codes (e.g., "Heart failure annual review", "Exception reporting - hypertension quality indicators")
-- **Missed valid diagnosis**: Genuine diagnosis codes the AI failed to find — the true under-inclusion rate
+- **Missed valid diagnosis** ⚠: Genuine diagnosis codes the AI failed to find. Classification based on term name; clinical review needed to confirm whether these are true diagnosis codes for the condition.
+- **Sequelae/historical** ⚠: Codes describing sequelae or long-term consequences. Whether these belong to the condition requires clinical judgement.
+- **Complication** ⚠: Codes describing complications. The relationship between the complication and the primary condition requires clinical expertise to confirm.
 
 ---
 
