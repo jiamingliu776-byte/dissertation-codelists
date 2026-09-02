@@ -276,10 +276,6 @@ ax.legend(loc='upper left', fontsize=9, framealpha=0.9)
 ax.grid(axis='y', alpha=0.3, zorder=0)
 ax.set_title('Mean F1 by Condition Group', fontsize=14, fontweight='bold', pad=12)
 
-ax.annotate('More specific terminology → Higher F1',
-            xy=(0.5, -0.15), xycoords='axes fraction',
-            ha='center', fontsize=10, fontstyle='italic', color='#888')
-
 plt.tight_layout()
 plt.savefig(os.path.join(OUT, "fig4_condition_groups.svg"), format='svg')
 plt.close()
@@ -323,7 +319,7 @@ cbar = plt.colorbar(im, ax=ax, shrink=0.8, pad=0.03)
 cbar.set_label('Jaccard Index', fontsize=11)
 
 ax.set_title('AF Inter-Expert Pairwise Agreement', fontsize=14, fontweight='bold', pad=12)
-ax.text(2, 5.5, f'Mean Jaccard = 0.453 (range 0.340–0.849)', ha='center', fontsize=10, color='#666', fontstyle='italic')
+ax.text(2, 4.85, f'Mean Jaccard = 0.453 (range 0.340–0.849)', ha='center', fontsize=10, color='#666', fontstyle='italic')
 
 plt.tight_layout()
 plt.savefig(os.path.join(OUT, "fig5_af_heatmap.svg"), format='svg')
