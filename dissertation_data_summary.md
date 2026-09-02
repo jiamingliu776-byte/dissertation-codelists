@@ -32,7 +32,11 @@
 
 | Condition | Dictionary | Source | Source Codes | In Dictionary | Not in Dictionary | Coverage |
 |---|---|---|---:|---:|---:|---:|
-| Atrial Fibrillation | Medical | ClinicalCodes | 18 | 18 | 0 | 100.0% |
+| Atrial Fibrillation (AF-1) | Medical | ClinicalCodes | 18 | 18 | 0 | 100.0% |
+| Atrial Fibrillation (AF-2) | Medical | HDR UK | 43 | 38 | 5 | 88.4% |
+| Atrial Fibrillation (AF-3) | Medical | LSHTM | 35 | 30 | 5 | 85.7% |
+| Atrial Fibrillation (AF-4) | Medical | LSHTM | 25 | 25 | 0 | 100.0% |
+| Atrial Fibrillation (AF-5) | Medical | LSHTM | 37 | 31 | 6 | 83.8% |
 | Heart Failure | Medical | ClinicalCodes | 84 | 84 | 0 | 100.0% |
 | Cerebrovascular Disease | Medical | ClinicalCodes | 130 | 130 | 0 | 100.0% |
 | Hypertension | Medical | LSHTM | 234 | 214 | 20 | 91.5% |
@@ -50,12 +54,7 @@ Reference sources:
 - HDR UK Phenotype Library: https://phenotypes.healthdatagateway.org/
 - LSHTM Data Compass: https://datacompass.lshtm.ac.uk/
 
-AF has 5 expert codelists for inter-expert comparison:
-- AF-1: ClinicalCodes (primary reference, 18 codes)
-- AF-2: HDR UK Phenotype Library (38 codes)
-- AF-3: LSHTM (30 codes)
-- AF-4: LSHTM (25 codes)
-- AF-5: LSHTM (31 codes)
+AF has 5 expert codelists for inter-expert agreement analysis. AF-1 is used as the primary reference for main evaluation (Table 2); all 5 are used for pairwise comparison (Table 3). "In Dictionary" counts are used for all pairwise calculations.
 
 ---
 
