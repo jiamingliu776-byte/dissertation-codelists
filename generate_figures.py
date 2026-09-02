@@ -174,13 +174,15 @@ fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(13, 5.5))
 
 models = ['GPT-5.4\nMini', 'Claude\nSonnet 5', 'Gemini\n3.6 Flash']
 
-# FP data
-fp_cats = ['Valid subtype', 'Semantic drift', 'History/resolved', 'Risk/screening', 'Admin', 'Exclusion']
-fp_colors = ['#4CAF50', '#FF9800', '#9E9E9E', '#2196F3', '#9C27B0', '#F44336']
+# FP data — unsure categories merged
+# Unsure = Valid subtype (269,627,624) + Semantic drift (51,283,248)
+# Identifiable: History/resolved, Risk/screening, Admin, Exclusion
+fp_cats = ['Unsure (clinical review)', 'History/resolved', 'Risk/screening', 'Admin', 'Exclusion']
+fp_colors = ['#FF9800', '#9E9E9E', '#2196F3', '#9C27B0', '#F44336']
 fp_data = np.array([
-    [269, 51, 7, 10, 6, 3],
-    [627, 283, 15, 0, 0, 0],
-    [624, 248, 0, 0, 1, 0],
+    [320, 7, 10, 6, 3],
+    [910, 15, 0, 0, 0],
+    [872, 0, 0, 1, 0],
 ], dtype=float)
 fp_totals = fp_data.sum(axis=1)
 fp_pct = fp_data / fp_totals[:, None] * 100
@@ -204,13 +206,15 @@ ax1.set_ylim(0, 105)
 ax1.set_title('False Positive Classification', fontsize=12, fontweight='bold')
 ax1.legend(loc='upper right', fontsize=7.5, framealpha=0.9)
 
-# FN data (excluding "Not in dictionary" — those are already shown in Table 1)
-fn_cats = ['Missed valid dx', 'Procedural', 'Admin', 'Other']
-fn_colors = ['#F44336', '#2196F3', '#9C27B0', '#9E9E9E']
+# FN data — unsure categories merged
+# Unsure = Missed valid dx (738,515,494) + Sequelae (16,12,12) + Complication (9,7,8)
+# Identifiable: Procedural, Admin, History+Cause of death
+fn_cats = ['Unsure (clinical review)', 'Procedural', 'Admin', 'Other identifiable']
+fn_colors = ['#FF9800', '#2196F3', '#9C27B0', '#9E9E9E']
 fn_data = np.array([
-    [738, 243, 174, 40],
-    [515, 242, 183, 37],
-    [494, 242, 182, 42],
+    [763, 243, 174, 15],
+    [534, 242, 183, 18],
+    [514, 242, 182, 22],
 ], dtype=float)
 fn_totals = fn_data.sum(axis=1)
 fn_pct = fn_data / fn_totals[:, None] * 100
