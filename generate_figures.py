@@ -26,7 +26,7 @@ plt.rcParams.update({
 # ══════════════════════════════════════════════════════════
 
 pipeline_svg = '''<?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 820 540" xmlns="http://www.w3.org/2000/svg" width="820" height="540">
+<svg viewBox="0 0 660 530" xmlns="http://www.w3.org/2000/svg" width="660" height="530">
   <style>
     .box { rx: 8; ry: 8; }
     .box-primary { fill: #E8F0FE; stroke: #4285F4; stroke-width: 1.5; }
@@ -34,7 +34,6 @@ pipeline_svg = '''<?xml version="1.0" encoding="UTF-8"?>
     .box-success { fill: #E8F5E9; stroke: #43A047; stroke-width: 1.5; }
     .box-neutral { fill: #F5F5F5; stroke: #9E9E9E; stroke-width: 1.5; }
     .box-danger { fill: #FFEBEE; stroke: #E53935; stroke-width: 1.5; }
-    .label { font-family: Calibri, Arial, sans-serif; font-size: 13px; fill: #333; text-anchor: middle; dominant-baseline: middle; }
     .label-bold { font-family: Calibri, Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #333; text-anchor: middle; dominant-baseline: middle; }
     .label-small { font-family: Calibri, Arial, sans-serif; font-size: 11px; fill: #666; text-anchor: middle; dominant-baseline: middle; }
     .arrow { fill: none; stroke: #888; stroke-width: 1.5; marker-end: url(#ah); }
@@ -48,71 +47,55 @@ pipeline_svg = '''<?xml version="1.0" encoding="UTF-8"?>
 
   <text x="30" y="28" class="section-label">1. Data Preparation</text>
   <rect x="30" y="42" width="160" height="50" class="box box-neutral"/>
-  <text x="110" y="60" class="label-bold">CPRD Aurum</text>
-  <text x="110" y="76" class="label-small">Medical + Product</text>
+  <text x="110" y="60" class="label-bold">Clinical Dictionary</text>
+  <text x="110" y="76" class="label-small">diagnosis + product codes</text>
   <path d="M190,67 L240,67" class="arrow"/>
-  <rect x="240" y="42" width="180" height="50" class="box box-primary"/>
-  <text x="330" y="60" class="label-bold">Embedding</text>
-  <text x="330" y="76" class="label-small">text-embedding-3-large</text>
-  <path d="M420,67 L470,67" class="arrow"/>
-  <rect x="470" y="42" width="160" height="50" class="box box-primary"/>
-  <text x="550" y="60" class="label-bold">Vector Index</text>
-  <text x="550" y="76" class="label-small">.npy (cosine similarity)</text>
+  <rect x="240" y="42" width="160" height="50" class="box box-primary"/>
+  <text x="320" y="60" class="label-bold">Text Embedding</text>
+  <text x="320" y="76" class="label-small">dense vector representation</text>
+  <path d="M400,67 L450,67" class="arrow"/>
+  <rect x="450" y="42" width="170" height="50" class="box box-primary"/>
+  <text x="535" y="60" class="label-bold">Vector Index</text>
+  <text x="535" y="76" class="label-small">semantic similarity search</text>
 
   <text x="30" y="130" class="section-label">2. Agentic Loop</text>
-  <rect x="25" y="140" width="620" height="210" rx="12" ry="12" fill="none" stroke="#4285F4" stroke-width="1" stroke-dasharray="8 4" opacity="0.4"/>
-  <text x="50" y="162" class="label-small" style="text-anchor:start; font-style:italic;">LLM decides autonomously (max 20 iterations)</text>
+  <rect x="25" y="140" width="610" height="200" rx="12" ry="12" fill="none" stroke="#4285F4" stroke-width="1" stroke-dasharray="8 4" opacity="0.4"/>
+  <text x="50" y="162" class="label-small" style="text-anchor:start; font-style:italic;">LLM decides autonomously when to search and when to stop</text>
 
-  <rect x="60" y="190" width="160" height="60" class="box box-secondary"/>
-  <text x="140" y="213" class="label-bold">LLM Agent</text>
-  <text x="140" y="230" class="label-small">GPT / Claude / Gemini</text>
-  <path d="M220,210 L280,210" class="arrow"/>
-  <text x="250" y="200" class="label-small">query</text>
+  <rect x="60" y="185" width="150" height="55" class="box box-secondary"/>
+  <text x="135" y="215" class="label-bold">LLM Agent</text>
+  <path d="M210,210 L270,210" class="arrow"/>
+  <text x="240" y="198" class="label-small">query</text>
 
-  <rect x="280" y="185" width="170" height="55" class="box box-primary"/>
-  <text x="365" y="205" class="label-bold">search_dictionary</text>
-  <text x="365" y="222" class="label-small">top-K codes returned</text>
-  <path d="M365,185 L365,135 L550,135 L550,92" class="arrow"/>
+  <rect x="270" y="185" width="170" height="55" class="box box-primary"/>
+  <text x="355" y="205" class="label-bold">search_dictionary</text>
+  <text x="355" y="222" class="label-small">top-K codes returned</text>
+  <path d="M355,185 L355,135 L535,135 L535,92" class="arrow"/>
 
-  <path d="M365,240 L365,280 L140,280 L140,250" class="arrow-loop"/>
-  <text x="250" y="296" class="label-small" style="font-style:italic;">results → decide next action</text>
+  <path d="M355,240 L355,270 L135,270 L135,240" class="arrow-loop"/>
+  <text x="245" y="262" class="label-small" style="font-style:italic; fill:#4285F4;">review results, refine query or stop</text>
 
-  <path d="M220,235 L280,310 L460,310" class="arrow"/>
-  <rect x="460" y="285" width="170" height="50" class="box box-success"/>
-  <text x="545" y="303" class="label-bold">submit_codelist</text>
-  <text x="545" y="320" class="label-small">final code IDs</text>
+  <path d="M210,230 L270,305 L440,305" class="arrow"/>
+  <rect x="440" y="278" width="170" height="50" class="box box-success"/>
+  <text x="525" y="296" class="label-bold">submit_codelist</text>
+  <text x="525" y="313" class="label-small">final code IDs</text>
 
-  <text x="30" y="390" class="section-label">3. Evaluation</text>
-  <rect x="60" y="405" width="150" height="50" class="box box-success"/>
-  <text x="135" y="423" class="label-bold">AI Codelist</text>
-  <text x="135" y="440" class="label-small">generated codes</text>
-  <path d="M545,335 L545,380 L210,430" class="arrow"/>
+  <text x="30" y="370" class="section-label">3. Evaluation</text>
+  <rect x="80" y="388" width="170" height="50" class="box box-success"/>
+  <text x="165" y="406" class="label-bold">AI Codelist</text>
+  <text x="165" y="423" class="label-small">generated codes</text>
+  <path d="M525,328 L525,365 L165,365 L165,388" class="arrow"/>
 
-  <rect x="280" y="405" width="150" height="50" class="box box-danger"/>
-  <text x="355" y="423" class="label-bold">Reference</text>
-  <text x="355" y="440" class="label-small">expert codelists</text>
+  <rect x="390" y="388" width="170" height="50" class="box box-danger"/>
+  <text x="475" y="406" class="label-bold">Reference</text>
+  <text x="475" y="423" class="label-small">expert codelists</text>
 
-  <rect x="500" y="405" width="160" height="50" class="box box-neutral"/>
-  <text x="580" y="423" class="label-bold">Compare</text>
-  <text x="580" y="440" class="label-small">P / R / F1 / Jaccard</text>
-  <path d="M210,430 L500,430" class="arrow"/>
+  <rect x="235" y="468" width="170" height="50" class="box box-neutral"/>
+  <text x="320" y="486" class="label-bold">Compare</text>
+  <text x="320" y="503" class="label-small">similarity metrics</text>
 
-  <text x="690" y="130" class="section-label">Models</text>
-  <rect x="680" y="145" width="120" height="28" class="box box-secondary"/>
-  <text x="740" y="162" class="label-small">GPT-5.4 Mini</text>
-  <rect x="680" y="183" width="120" height="28" class="box box-secondary"/>
-  <text x="740" y="200" class="label-small">Claude Sonnet 5</text>
-  <rect x="680" y="221" width="120" height="28" class="box box-secondary"/>
-  <text x="740" y="238" class="label-small">Gemini 3.6 Flash</text>
-
-  <text x="690" y="280" class="section-label">Parameters</text>
-  <text x="695" y="300" class="label-small" style="text-anchor:start;">K = 50 (max 200)</text>
-  <text x="695" y="317" class="label-small" style="text-anchor:start;">Max iterations = 20</text>
-  <text x="695" y="334" class="label-small" style="text-anchor:start;">Dims = 1,536</text>
-
-  <text x="690" y="370" class="section-label">Conditions</text>
-  <text x="695" y="390" class="label-small" style="text-anchor:start;">8 diagnoses +</text>
-  <text x="695" y="407" class="label-small" style="text-anchor:start;">2 drug products</text>
+  <line x1="165" y1="438" x2="235" y2="493" stroke="#888" stroke-width="1.5" marker-end="url(#ah)"/>
+  <line x1="475" y1="438" x2="405" y2="493" stroke="#888" stroke-width="1.5" marker-end="url(#ah)"/>
 </svg>'''
 
 with open(os.path.join(OUT, "fig1_pipeline_workflow.svg"), "w", encoding="utf-8") as f:
@@ -193,8 +176,11 @@ for i, (cat, col) in enumerate(zip(fp_cats, fp_colors)):
     bars = ax1.bar(x_fp, fp_pct[:, i], 0.55, bottom=bottom, label=cat, color=col, edgecolor='white', linewidth=0.5)
     for j, bar in enumerate(bars):
         if fp_pct[j, i] > 5:
-            ax1.text(bar.get_x() + bar.get_width()/2, bottom[j] + fp_pct[j, i]/2,
+            cy = bottom[j] + fp_pct[j, i]/2
+            ax1.text(bar.get_x() + bar.get_width()/2, cy + 1.5,
                     f'{fp_pct[j, i]:.0f}%', ha='center', va='center', fontsize=8, color='white', fontweight='bold')
+            ax1.text(bar.get_x() + bar.get_width()/2, cy - 2.5,
+                    f'({int(fp_data[j, i])})', ha='center', va='center', fontsize=7, color='white')
     bottom += fp_pct[:, i]
 
 ax1.set_xticks(x_fp)
@@ -202,7 +188,7 @@ ax1.set_xticklabels(models, fontsize=9)
 for j, t in enumerate(fp_totals):
     ax1.text(j, -8, f'n={int(t)}', ha='center', fontsize=8, color='#666')
 ax1.set_ylabel('Percentage (%)', fontsize=10)
-ax1.set_ylim(0, 105)
+ax1.set_ylim(0, 110)
 ax1.set_title('False Positive Classification', fontsize=12, fontweight='bold')
 ax1.legend(loc='upper right', fontsize=7.5, framealpha=0.9)
 
@@ -224,8 +210,11 @@ for i, (cat, col) in enumerate(zip(fn_cats, fn_colors)):
     bars = ax2.bar(x_fp, fn_pct[:, i], 0.55, bottom=bottom, label=cat, color=col, edgecolor='white', linewidth=0.5)
     for j, bar in enumerate(bars):
         if fn_pct[j, i] > 5:
-            ax2.text(bar.get_x() + bar.get_width()/2, bottom[j] + fn_pct[j, i]/2,
+            cy = bottom[j] + fn_pct[j, i]/2
+            ax2.text(bar.get_x() + bar.get_width()/2, cy + 1.5,
                     f'{fn_pct[j, i]:.0f}%', ha='center', va='center', fontsize=8, color='white', fontweight='bold')
+            ax2.text(bar.get_x() + bar.get_width()/2, cy - 2.5,
+                    f'({int(fn_data[j, i])})', ha='center', va='center', fontsize=7, color='white')
     bottom += fn_pct[:, i]
 
 ax2.set_xticks(x_fp)
@@ -233,9 +222,9 @@ ax2.set_xticklabels(models, fontsize=9)
 for j, t in enumerate(fn_totals):
     ax2.text(j, -8, f'n={int(t)}', ha='center', fontsize=8, color='#666')
 ax2.set_ylabel('Percentage (%)', fontsize=10)
-ax2.set_ylim(0, 105)
+ax2.set_ylim(0, 110)
 ax2.set_title('False Negative Classification', fontsize=12, fontweight='bold')
-ax2.legend(loc='upper right', fontsize=7.5, framealpha=0.9)
+ax2.legend(loc='upper right', fontsize=7.5, framealpha=0.9, bbox_to_anchor=(0.95, 1.0))
 
 plt.tight_layout()
 plt.savefig(os.path.join(OUT, "fig3_error_classification.svg"), format='svg')
