@@ -99,10 +99,10 @@ AF has 5 expert codelists for inter-expert agreement analysis. AF-1 is used as t
 |---|---:|---:|---:|
 | Overall mean F1 | 0.399 | 0.468 | 0.481 |
 | Overall mean Jaccard | 0.245 | 0.310 | 0.343 |
-| Mean searches/condition | 7.4 | 13.8 | 11.4 |
-| Mean AI codelist size | 89.8 | 161.5 | 155.6 |
 | Mean Precision | 0.527 | 0.460 | 0.470 |
 | Mean Recall | 0.390 | 0.466 | 0.516 |
+| Mean searches/condition | 7.4 | 13.8 | 11.4 |
+| Mean AI codelist size | 89.8 | 161.5 | 155.6 |
 | Total input tokens | 174,168 | 1,017,742 | 3,955,244 |
 | Total output tokens | 7,123 | 156,393 | 31,762 |
 | Conditions F1 > 0.5 | 3 | 4 | 5 |
