@@ -1,0 +1,189 @@
+medcodeid,term,asthma
+104872017,Extrinsic asthma without status asthmaticus,1
+1118291000000110,Asthma control test,1
+1139011000000112,Asthma control questionnaire,1
+1139051000000111,Mini asthma quality of life questionnaire,1
+1139131000000117,Under care of asthma specialist nurse,1
+1176461000000114,Patient has a written asthma personal action plan,1
+1176501000000114,Health education - asthma self management,1
+1176541000000112,Health education - structured asthma discussion,1
+11903851000006115,severe asthma attack,1
+1208954011,Asthma causes daytime symptoms 1 to 2 times per month,1
+1208955012,Asthma causes daytime symptoms 1 to 2 times per week,1
+1208956013,Asthma causes daytime symptoms most days,1
+1208957016,Asthma causes night symptoms 1 to 2 times per month,1
+1208958014,Asthma limits walking on the flat,1
+1208959018,Asthma limits walking up hills or stairs,1
+1208960011,Asthma never causes daytime symptoms,1
+1208962015,Number of asthma exacerbations in past year,1
+1208969012,Mild asthma,1
+1208970013,Moderate asthma,1
+1208971012,Occasional asthma,1
+1208972017,Severe asthma,1
+1208976019,Asthma treatment compliance unsatisfactory,1
+1208977011,Asthma treatment compliance satisfactory,1
+1212342016,Asthma daytime symptoms,1
+12485061000006112,"emergency admission, asthma",1
+145961000006117,Severe asthma attack,1
+1483199016,Allergic asthma,1
+1484905010,Change in asthma management plan,1
+1484910014,Step up change in asthma management plan,1
+1484911013,Step down change in asthma management plan,1
+1484953014,Absent from work or school due to asthma,1
+1488421017,Asthma annual review,1
+1488422012,Asthma follow-up,1
+1488436019,Asthma medication review,1
+1488722011,Asthma night-time symptoms,1
+149741000006116,Sequoiosis (red-cedar asthma),1
+151338014,Extrinsic asthma with status asthmaticus,1
+1722421000000110,Asthma causes night time symptoms 1 to 2 times per week,1
+1722501000000119,Asthma causes symptoms most nights,1
+1722581000000112,Asthma limits activities 1 to 2 times per month,1
+1722651000000119,Asthma limits activities 1 to 2 times per week,1
+1722731000000116,Asthma limits activities most days,1
+1739131000000111,Asthma trigger - airborne dust,1
+1739141000000119,Asthma trigger - exercise,1
+1739151000000116,Asthma trigger - pollen,1
+1739161000000118,Asthma trigger - tobacco smoke,1
+1739171000000113,Asthma trigger - warm air,1
+1739871000006114,Health education - structured patient focused asthma discuss,1
+1753401000006117,Asthma review using Roy Colleg of Physicians three questions,1
+1766051000006114,Royal College Physician asthma assessment 3 question score,1
+1768981000000110,Asthma never causes night symptoms,1
+1780378019,Asthma monitoring by nurse,1
+1780379010,Asthma monitoring by doctor,1
+1780388018,Asthma confirmed,1
+1807891000006111,asthma causes daytime asthma symptoms less than weekly,1
+1807901000006110,"asthma causes daytime symptoms more than weekly, less than daily",1
+1807911000006113,asthma causes daytime asthma symptoms daily,1
+1807921000006117,asthma causes night time symptoms less than 2 times per month,1
+1807931000006119,"asthma causes night time symp more than 2 times a month,not wkly",1
+1807941000006112,asthma causes night time asthma symptoms weekly or more often,1
+1811901000006116,Number days absent from school due to asthma in past 6 month,1
+1821501000006116,frequent night time asthma symptoms,1
+1821511000006118,infrequent asthma exacerbations,1
+1821521000006114,occasional asthma exacerbations,1
+1821531000006112,frequent asthma exacerbations,1
+1859261000006117,date of asthma diagnosis,1
+1880001000006114,no change in asthma management plan,1
+2009981000006110,difficult asthma,1
+2010031000006116,acute infective exacerbation of asthma,1
+2010041000006114,acute non-infective exacerbation of asthma,1
+2115631000000117,Asthma self-management plan review,1
+2117771000000117,Asthma self-management plan agreed,1
+2131281000000114,asthma trigger - perfume,1
+21390015,Intrinsic asthma without status asthmaticus,1
+216186011,Asthma accident and emergency attendance since last visit,1
+2240591000000119,Chronic asthma with fixed airflow obstruction,1
+2474332015,Asthma clinical management plan,1
+264540018,Asthma disturbing sleep,1
+264541019,Asthma causing night waking,1
+264542014,Asthma disturbs sleep weekly,1
+264543016,Asthma disturbs sleep frequently,1
+264545011,Asthma never disturbs sleep,1
+264546012,Asthma limiting activities,1
+264550017,Asthma management plan given,1
+264551018,Asthma severity,1
+264565016,Emergency asthma admission since last appointment,1
+264566015,Asthma restricts exercise,1
+264567012,Asthma sometimes restricts exercise,1
+264568019,Asthma severely restricts exercise,1
+264569010,Asthma never restricts exercise,1
+282489019,Asthma control step 1,1
+282490011,Asthma control step 2,1
+282491010,Asthma control step 3,1
+282492015,Asthma control step 4,1
+282493013,Asthma control step 5,1
+283550015,"Emergency admission, asthma",1
+285727014,Attends asthma monitoring,1
+2871881000006113,red-cedar asthma,1
+3005801000006117,eia - exercise-induced asthma,1
+3005811000006119,exercise induced asthma,1
+301450011,Chronic asthmatic bronchitis,1
+301480018,Bronchial asthma,1
+301485011,Asthma,1
+301499010,Extrinsic asthma NOS,1
+301508013,Intrinsic asthma NOS,1
+301511014,Asthma unspecified,1
+305611000000115,Asthma trigger - animals,1
+338238011,Brittle asthma,1
+3425341000006113,wood asthma,1
+3425351000006110,wood-workers' asthma,1
+3425371000006117,wood dust asthma,1
+3425381000006119,saw dust asthma,1
+3435971000006119,industrial asthma,1
+350148014,Late onset asthma,1
+350149018,Late-onset asthma,1
+350151019,Extrinsic asthma with asthma attack,1
+350152014,Allergic asthma NEC,1
+350153016,Hay fever with asthma,1
+350154010,Pollen asthma,1
+350156012,Intrinsic asthma with asthma attack,1
+396114013,Intrinsic asthma,1
+396118011,Status asthmaticus NOS,1
+396119015,Asthma attack,1
+396120014,Asthma NOS,1
+405054019,Asthma monitored,1
+405055018,Asthma monitoring check done,1
+409865018,Asthma attack NOS,1
+411877015,Asthma monitoring,1
+419211018,Acute exacerbation of asthma,1
+456163018,Asthma - currently active,1
+4723761000006117,emergency hospital admission for asthma,1
+4781531000006113,asthmatic,1
+5054341000006110,late-onset asthma,1
+536221000000110,Royal College of Physicians asthma assessment,1
+5492441000006114,non-allergic asthma,1
+5492451000006111,asthma due to internal immunological process,1
+6298421000006116,eosinophilic asthma,1
+636231000000119,Asthma trigger - cold air,1
+636251000000114,Asthma trigger - damp,1
+636271000000117,Asthma trigger - emotion,1
+636291000000118,Asthma trigger - respiratory infection,1
+636311000000117,Asthma trigger - seasonal,1
+6512381000006116,atopic asthma,1
+6550131000006111,nocturnal asthma,1
+655601000006113,Exercise induced asthma,1
+655611000006111,Exercise induced asthma,1
+660351000006118,Extrinsic (atopic) asthma,1
+6720721000006111,asthmatic bronchitis,1
+6724151000006111,asthma care,1
+69311016,Detergent asthma,1
+7030311000006117,ige-mediated allergic asthma,1
+7030321000006113,ige mediated asthma,1
+7030341000006118,ige mediated allergic asthma,1
+7030351000006116,immunoglobulin e-mediated allergic asthma,1
+7627241000006119,acute exacerbation of asthma,1
+7628191000006118,acute severe exacerbation of asthma,1
+7628271000006114,acute exacerbation of extrinsic asthma,1
+7628281000006112,acute exacerbation of immunoglobulin e-mediated allergic asthma,1
+797211000006117,Further asthma - drug prevent.,1
+8060791000006112,asthma trigger - respiratory infection,1
+8060811000006111,asthma trigger - seasonal,1
+8060841000006110,asthma trigger - animal,1
+8061011000006113,asthma trigger - cold air,1
+8061031000006119,asthma trigger - damp,1
+8061051000006114,asthma trigger - emotion,1
+8095951000006111,rcp (royal college of physicians) asthma assessment,1
+8109001000006118,asthma trigger - airborne dust,1
+8109021000006111,asthma trigger - exercise,1
+8109041000006116,asthma trigger - pollen,1
+8109071000006112,asthma trigger - tobacco smoke,1
+8109091000006113,asthma trigger - warm air,1
+817361000006114,Hay fever with asthma,1
+8465371000006113,life threatening acute exacerbation of allergic asthma,1
+8465381000006111,life threatening acute exacerbation of extrinsic asthma,1
+8465391000006114,life threatening acute exacerbation of intrinsic asthma,1
+8465401000006111,life threatening acute exacerbation of non-allergic asthma,1
+856031000006110,asthma stable < 3 months,1
+856041000006117,asthma stable > 3 months,1
+856051000006115,asthma control unsatisfactory,1
+885291000006115,extrinsic asthma - atopy,1
+905331000006118,[rfc] asthma,1
+908841000006111,[rfc] asthma,1
+929091000006111,Aspirin induced asthma,1
+94731013,Wood asthma,1
+955631000006116,occupational asthma,1
+95786019,Occupational asthma,1
+983771000006118,Work aggravated asthma,1
+98546013,Intrinsic asthma with status asthmaticus,1

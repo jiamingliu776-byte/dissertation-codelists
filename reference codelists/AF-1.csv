@@ -1,0 +1,22 @@
+code,coding_system,description,entity,list_name,upload_date
+1.75587E+15,SNOMED,Referral to atrial fibrillation clinic,diagnostic,964 - res185: atrial fibrillation (Aurum),2021-11-16
+1.82395E+15,SNOMED,Atrial fibrillation confirmed,diagnostic,964 - res185: atrial fibrillation (Aurum),2021-11-16
+1.82405E+15,SNOMED,Atrial fibrillation clinical pathway protocol followed,diagnostic,964 - res185: atrial fibrillation (Aurum),2021-11-16
+2.19758E+15,SNOMED,Atrial fibrillation care pathway,diagnostic,964 - res185: atrial fibrillation (Aurum),2021-11-16
+256478018,SNOMED,ECG: atrial fibrillation,diagnostic,964 - res185: atrial fibrillation (Aurum),2021-11-16
+2675253013,SNOMED,Chronic atrial fibrillation,diagnostic,964 - res185: atrial fibrillation (Aurum),2021-11-16
+300130013,SNOMED,Atrial fibrillation and flutter,diagnostic,964 - res185: atrial fibrillation (Aurum),2021-11-16
+300132017,SNOMED,Atrial fibrillation and flutter NOS,diagnostic,964 - res185: atrial fibrillation (Aurum),2021-11-16
+3.29991E+15,SNOMED,AF - Atrial fibrillation,diagnostic,964 - res185: atrial fibrillation (Aurum),2021-11-16
+350465014,SNOMED,Non-rheumatic atrial fibrillation,diagnostic,964 - res185: atrial fibrillation (Aurum),2021-11-16
+421235014,SNOMED,Paroxysmal atrial fibrillation,diagnostic,964 - res185: atrial fibrillation (Aurum),2021-11-16
+4.58661E+15,SNOMED,Electrocardiographic atrial fibrillation,diagnostic,964 - res185: atrial fibrillation (Aurum),2021-11-16
+5.05728E+15,SNOMED,NRAF - Non-rheumatic atrial fibrillation,diagnostic,964 - res185: atrial fibrillation (Aurum),2021-11-16
+5.66959E+15,SNOMED,AF - Paroxysmal atrial fibrillation,diagnostic,964 - res185: atrial fibrillation (Aurum),2021-11-16
+5.66961E+15,SNOMED,Intermittent atrial fibrillation,diagnostic,964 - res185: atrial fibrillation (Aurum),2021-11-16
+5.6696E+15,SNOMED,PAF - Paroxysmal atrial fibrillation,diagnostic,964 - res185: atrial fibrillation (Aurum),2021-11-16
+6.36701E+14,SNOMED,Persistent atrial fibrillation,diagnostic,964 - res185: atrial fibrillation (Aurum),2021-11-16
+6.36721E+14,SNOMED,Permanent atrial fibrillation,diagnostic,964 - res185: atrial fibrillation (Aurum),2021-11-16
+7.83761E+14,SNOMED,Implant intravenous pacemaker for atrial fibrillation,diagnostic,964 - res185: atrial fibrillation (Aurum),2021-11-16
+82343012,SNOMED,Atrial fibrillation,diagnostic,964 - res185: atrial fibrillation (Aurum),2021-11-16
+8.65521E+14,SNOMED,Pacer controlled atrial fibril,diagnostic,964 - res185: atrial fibrillation (Aurum),2021-11-16

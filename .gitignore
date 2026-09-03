@@ -6,23 +6,25 @@ CPRDAurum*.txt
 med_metadata.csv
 prod_metadata.csv
 
-# Reference codelists (sourced from ClinicalCodes, HDR UK, LSHTM)
-AF-*.csv
-AF-*.txt
-heart failrue_final_matched.csv
-cerebrovascular disease_final_matched.csv
-hypertension.txt
-myocardial infraction.txt
-peripheral.txt
-COPD.txt
-asthma.txt
-diabetes.txt
-insulin.csv
-insulin_matched.csv
-insulin_final_matched.csv
-metformin.csv
-metformin_matched.csv
-metformin_final_matched.csv
+# Reference codelist working files in root (matched/intermediate versions)
+/AF-*.csv
+/AF-*.txt
+/heart failrue_final_matched.csv
+/heart failrue_matched.csv
+/cerebrovascular disease_final_matched.csv
+/cerebrovascular disease_matched.csv
+/hypertension.txt
+/myocardial infraction.txt
+/peripheral.txt
+/COPD.txt
+/asthma.txt
+/diabetes.txt
+/insulin.csv
+/insulin_matched.csv
+/insulin_final_matched.csv
+/metformin.csv
+/metformin_matched.csv
+/metformin_final_matched.csv
 
 # Old/archived results
 results_agentic/_old_runs/

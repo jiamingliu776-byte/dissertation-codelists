@@ -1,0 +1,233 @@
+medcodeid	term	originalreadcode	cleansedreadcode	snomedctconceptid	SnomedCTDescriptionId	release	emiscodecategoryid
+931451000006113	dna - did not attend copd clinic	9N4W	9N4W.00	110011000000107	166021000000116		37
+8034781000006113	did not attend chronic obstructive pulmonary disease clinic	^ESCTDI803478		110011000000107	156561000000110		37
+12623621000006118	excepted from copd (chronic obstructive pulmonary disease) quality indicators - service unavailable	^ESCT1262362		1108721000000102	2774581000000119		37
+12626281000006113	qof (quality and outcomes framework) chronic obstructive pulmonary disease quality indicator-related care invitation	^ESCT1262628		1110861000000102	2779701000000115		37
+11932331000006115	copd gold group a	EMISNQCO295		11932331000006104	11932331000006115		1
+11932341000006113	copd gold group b	EMISNQCO296		11932341000006109	11932341000006113		1
+11932351000006110	copd gold group c	EMISNQCO297		11932351000006106	11932351000006110		1
+11932361000006112	copd gold group d	EMISNQCO298		11932361000006108	11932361000006112		1
+4510801000006114	end stage chronic obstructive pulmonary disease	^ESCTEN451080		135836000	3034045017		32
+216596014	end stage chronic obstructive airways disease	H3A	H3A..00	135836000	216596014		32
+475431013	chronic obstructive pulmonary disease	H3	H3...00	13645005	475431013		32
+990651000006112	chr. airway obstruction nos	H3-98	H3...98	13645005	990651000006112		32
+301836011	[x]other specified chronic obstructive pulmonary disease	Hyu31	Hyu3100	13645005	475431013		32
+301545019	chronic obstructive airways disease nos	H3z	H3z..00	13645005	475428012		32
+1222334016	other specified chronic obstructive pulmonary disease	H3y-1	H3y..11	13645005	475431013		32
+555471000006114	chronic obstructive airways disease	H3-1	H3...11	13645005	475423015		32
+2716351000006113	cold - chronic obstructive lung disease	^ESCTCO271635		13645005	475430014		32
+2716271000006112	cafl - chronic airflow limitation	^ESCTCA271627		13645005	475422013		32
+2716311000006112	cal - chronic airflow limitation	^ESCTCA271631		13645005	475426011		32
+2716301000006114	chronic airflow limitation	^ESCTCH271630		13645005	475425010		32
+2716251000006119	chronic irreversible airway obstruction	^ESCTCH271625		13645005	475420017		32
+2716321000006116	copd - chronic obstructive pulmonary disease	^ESCTCO271632		13645005	475427019		32
+2716341000006111	chronic airway disease	^ESCTCH271634		13645005	475429016		32
+2716231000006114	chronic obstructive lung disease	^ESCTCH271623		13645005	23287019		32
+301539010	other specified chronic obstructive airways disease	H3y	H3y..00	13645005	475428012		32
+2716261000006117	chronic airflow obstruction	^ESCTCH271626		13645005	475421018		32
+2716241000006116	chronic airway obstruction	^ESCTCH271624		13645005	475419011		32
+990641000006110	chronic obst. pulm. dis. nos	H3-99	H3...99	13645005	990641000006110		32
+1222335015	chronic obstructive pulmonary disease nos	H3z-1	H3z..11	13645005	475431013		32
+2716291000006113	cao - chronic airflow obstruction	^ESCTCA271629		13645005	475424014		32
+27096010	giant bullous emphysema	H3202	H320200	16003001	27096010		32
+1656601000006119	copd patient unsuitable for pulmonary rehabilitation	EMISNQCO39		1656601000006103	1656601000006119		37
+28511012	pneumomediastinum	H581-1	H581.11	16838000	28511012		32
+2767261000006118	mediastinal emphysema	^ESCTME276726		16838000	28510013		32
+1724351000006112	clinical copd questionnaire	EMISNQCL15		1724351000006108	1724351000006112		3
+1763751000006117	gp out of hours notified of copd care plan	EMISNQGP37		1763751000006101	1763751000006117		37
+1771201000006116	chronic obstructive pulmonary disease multidisciplinary review	EMISNQCH80		1771201000006100	1771201000006116		1
+1771441000006118	copd patient experience discussed	EMISNQCO114		1771441000006102	1771441000006118		32
+1788021000006116	chronic obstructive pulmonary disease rescue pack not indicated	EMISNQCH93		1788021000006100	1788021000006116		32
+1822171000006111	copd pathway protocol not followed	EMISNQCO145		1822171000006107	1822171000006111		32
+1823851000006119	chronic obstructive pulmonary disease confirmed	EMISNQCH102		1823851000006103	1823851000006119		27
+1824071000006115	copd clinical pathway protocol followed	EMISNQCO149		1824071000006104	1824071000006115		32
+1839331000006117	seen in chronic obstructive pulmonary disease clinic	EMISNQSE79		1839331000006101	1839331000006117		37
+285100019	emphysematous bronchitis	H3121	H312100	185086009	285100019		32
+4733031000006114	chronic obstructive bronchitis	^ESCTCH473303		185086009	2668815014		32
+4733001000006118	bronchitis with airway obstruction	^ESCTBR473300		185086009	285102010		32
+4733021000006111	obstructive chronic bronchitis	^ESCTOB473302		185086009	285104011		32
+4733011000006115	cob - chronic obstructive bronchitis	^ESCTCO473301		185086009	285103017		32
+4732991000006119	chronic bronchitis with emphysema	^ESCTCH473299		185086009	285101015		32
+285104011	obstructive chronic bronchitis	H312	H312.00	185086009	285100019		32
+301455018	obstructive chronic bronchitis nos	H312z	H312z00	185086009	285100019		32
+1856491000006119	chronic obstructive pulmonary disease monitoring in primary care	EMISNQCH158		1856491000006103	1856491000006119		37
+1856501000006110	chronic obstructive pulmonary disease monitoring secondary care	EMISNQCH159		1856501000006106	1856501000006110		37
+1856571000006116	chronic obstructive pulmonary disease severity	EMISNQCH160		1856571000006100	1856571000006116		1
+1856581000006118	chronic obstructive pulmonary disease monitoring default	EMISNQCH161		1856581000006102	1856581000006118		37
+1856591000006115	chronic obstructive pulmonary disease follow-up assessment	EMISNQCH162		1856591000006104	1856591000006115		1
+1877361000006116	copd clinical management plan no longer in place	EMISNQCO192		1877361000006100	1877361000006116		32
+1880061000006110	copd management plan declined	EMISNQCO196		1880061000006106	1880061000006110		32
+1882371000006118	shared care chronic obstructive pulmonary disease monitoring	EMISNQSH45		1882371000006102	1882371000006118		37
+1882421000006113	1 copd exacerbation in past year	EMISNQ1C1		1882421000006109	1882421000006113		1
+1882431000006111	3+ copd exacerbations in past year	EMISNQ3C1		1882431000006107	1882431000006111		1
+1882441000006118	2 copd exacerbations in past year	EMISNQ2C1		1882441000006102	1882441000006118		1
+1882451000006116	no copd exacerbations in past year	EMISNQNO109		1882451000006100	1882451000006116		1
+1916531000006115	access to online patient copd education given	EMISNQAC842		1916531000006104	1916531000006115		32
+1955181000006113	keele enhance trial - copd review	EMISNQKE156		1955181000006109	1955181000006113		37
+183191000006115	recurrent wheezy bronchitis	H30-2	H30..12	195949008	301450011		32
+301451010	chronic wheezy bronchitis	H3120-1	H312011	195949008	301451010		32
+301450011	chronic asthmatic bronchitis	H3120	H312000	195949008	301450011		32
+301453013	acute exacerbation of chronic obstructive airways disease	H3122	H312200	195951007	301453013		32
+4781421000006111	acute exacerbation of copd	^ESCTAC478142		195951007	3012683010		32
+4781431000006114	acute exacerbation of chronic obstructive pulmonary disease	^ESCTAC478143		195951007	3012710012		32
+553211000006119	chron obstruct pulmonary dis wth acute exacerbation, unspec	H3y1	H3y1.00	195951007	301453013		32
+301456017	mixed simple and mucopurulent chronic bronchitis	H313	H313.00	195953005	301456017		32
+301460019	chronic bullous emphysema	H320	H320.00	195957006	301460019		32
+4781461000006117	emphysematous bulla	^ESCTEM478146		195957006	301461015		32
+301468014	chronic bullous emphysema nos	H320z	H320z00	195957006	301460019		32
+4781471000006112	bullous emphysema	^ESCTBU478147		195957006	301462010		32
+301463017	segmental bullous emphysema	H3200	H320000	195958001	301463017		32
+301464011	zonal bullous emphysema	H3201	H320100	195959009	301464011		32
+301470017	acute vesicular emphysema	H32y0	H32y000	195963002	301470017		32
+4781821000006113	chronic emphysema caused by chemical fumes	^ESCTCH478182		196026004	3296151011		32
+301572010	chronic emphysema due to chemical fumes	H4640	H464000	196026004	301572010		32
+1970531000006111	copd assessment test score - cough	EMISNQCO268		1970531000006107	1970531000006111		3
+1970541000006118	copd assessment test score - phlegm (mucus)	EMISNQCO269		1970541000006102	1970541000006118		3
+1970551000006116	copd assessment test score - chest tightness	EMISNQCO270		1970551000006100	1970551000006116		3
+1970561000006119	copd assessment test score - breathless walking up hill/stairs	EMISNQCO271		1970561000006103	1970561000006119		3
+1970571000006114	copd assessment test score - activity limitation at home	EMISNQCO272		1970571000006105	1970571000006114		3
+1970581000006112	copd assessment test score - confidence leaving home	EMISNQCO273		1970581000006108	1970581000006112		3
+1970591000006110	copd assessment test score - sleeping soundly	EMISNQCO274		1970591000006106	1970591000006110		3
+1970601000006119	copd assessment test score - energy	EMISNQCO275		1970601000006103	1970601000006119		3
+299001000000116	chronic obstructive pulmonary disease disturbs sleep	66Yg	66Yg.00	198401000000104	299001000000116		1
+8058301000006110	copd (chronic obstructive pulmonary disease) disturbs sleep	^ESCTCO805830		198401000000104	1677391000000113		1
+299031000000110	chronic obstructive pulmonary disease does not disturb sleep	66Yh	66Yh.00	198411000000102	299031000000110		1
+8058321000006117	copd (chronic obstructive pulmonary disease) does not disturb sleep	^ESCTCO805832		198411000000102	1677401000000111		1
+998281000006115	multiple copd emergency hospital admissions	66Yi	66Yi.00	198901000000105	300201000000114		1
+2009451000006113	chronic obstructive pulmonary disease post discharge review	EMISNQCH958		2009451000006109	2009451000006113		1
+2009501000006110	suitable for step down change in copd management plan	EMISNQSU104		2009501000006106	2009501000006110		1
+2009511000006113	not suitable for step down change in copd management plan	EMISNQNO177		2009511000006109	2009511000006113		1
+396108018	bullous emphysema with collapse	H3203	H320300	266355005	396108018		32
+396109014	atrophic (senile) emphysema	H32y1	H32y100	266356006	396109014		32
+1765681000000110	history of chronic obstructive pulmonary disease	14B3-2	14B3.12	270473001	1765681000000110		32
+5516841000006119	history of chronic obstructive airway disease	^ESCTHI551684		270473001	2986462010		32
+405080018	h/o: chr.obstr. airway disease	14B3	14B3.00	270473001	1765681000000110		32
+516801000000112	very severe chronic obstructive pulmonary disease	H39	H39..00	293991000000106	516801000000112		32
+457168017	mild chronic obstructive pulmonary disease	H36	H36..00	313296004	457168017		32
+457169013	moderate chronic obstructive pulmonary disease	H37	H37..00	313297008	457169013		32
+457171013	severe chronic obstructive pulmonary disease	H38	H38..00	313299006	457171013		32
+1704531000006115	copd patient unsuitable for pulmonary rehab - enh serv admin	9kf0	9kf0.00	371611000000107	1152601000000114		37
+8120981000006112	copd (chronic obstructive pulmonary disease) patient unsuitable for pulmonary rehabilitation	^ESCTCO812098		371611000000107	730041000000110		37
+1704541000006113	copd patient unsuitable for pulmonary rehabilitation	9kf0-1	9kf0.11	371611000000107	1152601000000114		37
+1704521000006118	copd - enhanced services administration	9kf	9kf..00	374591000000101	1152521000000118		37
+1704561000006112	refer copd structured smoking assessment - enhanc serv admin	9kf1	9kf1.00	375851000000108	739301000000115		37
+1704551000006110	referred for copd structured smoking assessment	9kf1-1	9kf1.11	375851000000108	739301000000115		37
+1704581000006119	copd structured smoking assessment declined	9kf2-1	9kf2.11	375911000000102	739421000000116		37
+1704571000006117	copd structured smoking assessment declined - enh serv admin	9kf2	9kf2.00	375911000000102	739421000000116		37
+8125721000006119	at risk of copd (chronic obstructive pulmonary disease) exacerbation	^ESCTAT812572		383611000000102	756791000000118		32
+1699821000006113	at risk of chronic obstructive pulmonary diseas exacerbation	14OX	14OX.00	383611000000102	756761000000112		32
+1484924013	chronic obstructive pulmonary disease monitoring	66YB	66YB.00	390891009	1484924013		1
+839001000006111	copd self-management plan given	66YI	66YI.00	390891009	1484924013		1
+1484971019	chronic obstructive pulmonary disease monitoring due	66YD	66YD.00	390941006	1484971019		1
+1494601017	coad follow-up	66YL-2	66YL.12	394702007	1494601017		1
+1488423019	chronic obstructive pulmonary disease follow-up	66YL	66YL.00	394702007	1488423019		1
+845451000006118	copd follow-up	66YL-1	66YL.11	394702007	1488423019		1
+1488424013	chronic obstructive pulmonary disease annual review	66YM	66YM.00	394703002	1488424013		1
+1488856013	chronic obstructive pulmonary disease leaflet given	8CE6	8CE6.00	395159008	1488856013		32
+1780380013	chronic obstructive pulmonary disease monitoring by nurse	66YS	66YS.00	401184000	1780380013		1
+1780381012	chronic obstructive pulmonary disease monitoring by doctor	66YT	66YT.00	401185004	1780381012		1
+12489801000006116	admit copd emergency	^ESCT1248980		408501008	2160051010		40
+6763251000006114	emergency hospital admission for copd (chronic obstructive pulmonary disease)	^ESCTEM676325		408501008	3082978011		40
+6763231000006119	emergency hospital admission for chronic obstructive pulmonary disease	^ESCTEM676323		408501008	6763231000006119		40
+2160051010	admit copd emergency	8H2R	8H2R.00	408501008	3082901016		40
+977891000006112	copd accident and emergency attendance since last visit	66Yd	66Yd.00	413845009	2533538014		1
+977901000006111	emergency copd admission since last appointment	66Ye	66Ye.00	414087000	2533539018		1
+1161361000000118	clinical chronic obstructive pulmonary disease questionnaire	38Dd	38Dd.00	445192002	2872607015		3
+7304221000006115	ccq (clinical chronic obstructive pulmonary disease questionnaire) total score	^ESCTCC730422		445192002	1641851000000118		3
+7304211000006111	clinical chronic obstructive pulmonary disease questionnaire total score	^ESCTCL730421		445192002	7304211000006111		3
+7304231000006117	clinical copd (chronic obstructive pulmonary disease) questionnaire total score	^ESCTCL730423		445192002	1650051000000118		3
+1176861000000111	chronic obstructive pulmonary disease assessment test	38Dg	38Dg.00	446660005	2883862010		3
+7327761000006115	chronic obstructive pulmonary disease assessment test score	^ESCTCH732776		446660005	7327761000006115		3
+7327771000006110	cat - copd (chronic obstructive pulmonary disease) assessment test score	^ESCTCA732777		446660005	1712341000000119		3
+1783891000006115	chronic obstructiv pulmonary disease medication optimisation	8BMa0	8BMa000	473202005	3297697018		32
+7484341000006112	optimization of medication for chronic obstructive lung disease	^ESCTOP748434		473202005	2956280014		32
+7484351000006114	optimisation of medication for chronic obstructive lung disease	^ESCTOP748435		473202005	3297724010		32
+7484331000006119	optimization of medication for chronic obstructive pulmonary disease	^ESCTOP748433		473202005	2956201010		32
+2578901000006116	vesicular emphysema	^ESCTVE257890		4981000	9338014		32
+2578881000006118	panacinar emphysema	^ESCTPA257888		4981000	9336013		32
+2578911000006118	alveolar emphysema of lung	^ESCTAL257891		4981000	9339018		32
+9337016	panlobular emphysema	H321	H321.00	4981000	9337016		32
+87480013	chronic tracheobronchitis	H31y1	H31y100	52571006	87480013		32
+508561017	simple chronic bronchitis	H310	H310.00	61937009	102938011		32
+301444018	simple chronic bronchitis nos	H310z	H310z00	61937009	102938011		32
+301457014	other chronic bronchitis	H31y	H31y.00	63480004	105519017		32
+301458016	other chronic bronchitis nos	H31yz	H31yz00	63480004	105519017		32
+301459012	chronic bronchitis nos	H31z	H31z.00	63480004	105519017		32
+105519017	chronic bronchitis	H31	H31..00	63480004	105519017		32
+113497011	centrilobular emphysema	H322	H322.00	68328006	113497011		32
+3611791000006110	centriacinar emphysema	^ESCTCE361179		68328006	113496019		32
+3011135010	step down change in chronic obstructive pulmonary disease management plan	ESCTST16		704123000	3011135010		1
+967531000006119	chronic obstructive pulmonary disease monitoring admin	9Oi	9Oi..00	713731000000102	1564971000000118		37
+189761000000117	chronic obstructive pulmonary disease monitoring 1st letter	9Oi0	9Oi0.00	716241000000106	1568801000000112		37
+967571000006116	chronic obstructive pulmonary disease monitoring verb invite	9Oi3	9Oi3.00	716281000000103	1568831000000118		37
+139141000000114	excepted from copd quality indicators: informed dissent	9h52	9h52.00	716291000000101	1568841000000110		37
+139131000000117	excepted from copd quality indicators: patient unsuitable	9h51	9h51.00	716311000000100	1568861000000111		37
+2423731000000115	telehealth chronic obstructive pulmonary disease monitoring	66YB2	66YB200	716358000	3305683010		1
+967581000006118	chronic obstructive pulmonary disease monitor phone invite	9Oi4	9Oi4.00	716901000000101	1569451000000115		37
+198471000000111	chronic obstructive pulmonary disease monitoring 2nd letter	9Oi1	9Oi1.00	717021000000106	1569571000000113		37
+199481000000116	chronic obstructive pulmonary disease monitoring 3rd letter	9Oi2	9Oi2.00	717521000000104	1570061000000113		37
+139011000000112	exception reporting: copd quality indicators	9h5	9h5..00	717591000000101	1570121000000118		37
+8219501000006114	issue of copd (chronic obstructive pulmonary disease) rescue pack	^ESCTIS821950		718241000000107	1573141000000119		32
+1573111000000115	issue of chronic obstructive pulmonary disease rescue pack	8BMW	8BMW.00	718241000000107	1573111000000115		32
+977911000006114	number of copd exacerbations in past year	66Yf	66Yf.00	723245007	3335171010		1
+966841000006111	chronic obstructive pulmonary disease clini management plan	8CR1	8CR1.00	736283006	3517019016		32
+405121000000111	health education - chronic obstructive pulmonary disease	679V	679V.00	741056003	3543021016		17
+885281000006118	mucopurulent chr. bronchitis	H311-99	H311.99	74417001	885281000006118		32
+301448015	mucopurulent chronic bronchitis nos	H311z	H311z00	74417001	123588010		32
+123588010	mucopurulent chronic bronchitis	H311	H311.00	74417001	123588010		32
+1683181000000112	chronic obstructive pulmonary disease 3 monthly review	66YB0	66YB000	760601000000107	1683181000000112		1
+8235101000006114	copd (chronic obstructive pulmonary disease) 3 monthly review	^ESCTCO823510		760601000000107	1709911000000112		1
+1683221000000119	chronic obstructive pulmonary disease 6 monthly review	66YB1	66YB100	760621000000103	1683221000000119		1
+8235131000006118	copd (chronic obstructive pulmonary disease) 6 monthly review	^ESCTCO823513		760621000000103	1710191000000113		1
+19421011	interstitial emphysema	H581	H581.00	77690003	503646013		32
+12704691000006117	interstitial emphysema	^ESCT1270469		77690003	770361000006117		32
+3764031000006119	interstitial pulmonary emphysema	^ESCTIN376403		77690003	3764031000006119		32
+457581000006111	acute interstitial emphysema	H32y1-1	H32y111	77690003	503646013		32
+3764021000006117	interstitial emphysema of lung	^ESCTIN376402		77690003	128944012		32
+1785171000006113	gp ooh service notified of copd care plan	9e03	9e03.00	783631000000109	1752261000000117		37
+8244871000006114	gp (general practitioner) ooh (out of hours) service notified of copd (chronic obstructive pulmonary disease) care plan	^ESCTGP824487		783631000000109	1752291000000111		37
+1784071000006113	preferred place of care for next exacerbation of copd	8CeD	8CeD.00	789661000000102	1765431000000114		32
+1784371000006111	referral to copd community nursing team	8Hkw	8Hkw.00	790301000000101	1766811000000114		40
+8249051000006111	referral to copd (chronic obstructive pulmonary disease) community nursing team	^ESCTRE824905		790301000000101	1766841000000110		40
+1811741000006117	copd self-management plan review	661N3	661N300	810951000000101	2115731000000110		1
+8260631000006112	copd (chronic obstructive pulmonary disease) self-management plan review	^ESCTCO826063		810951000000101	2115741000000118		1
+1811661000006110	copd self-management plan agreed	661M3	661M300	811961000000106	2117851000000118		1
+1813021000006111	chronic obstructve pulmonry disease rescue pack not indicatd	8I610	8I61000	820341000000109	2136671000000116		32
+8268191000006115	copd (chronic obstructive pulmonary disease) rescue pack not indicated	^ESCTCO826819		820341000000109	2136701000000117		32
+1813881000006119	on copd (chr obstruc pulmonary disease) supportv cre pathway	9NgP-1	9NgP.11	826111000000109	2155811000000119		37
+1813871000006117	on chronic obstructive pulmonary disease supprtv cre pathway	9NgP	9NgP.00	826111000000109	2149041000000110		37
+2152091000000112	has chronic obstructive pulmonary disease care plan	8CMV	8CMV.00	827571000000106	2152091000000112		32
+3873191000006110	fetid chronic bronchitis	^ESCTFE387319		84409004	139979010		32
+139979010	fetid chronic bronchitis	H3111	H311100	84409004	506053014		32
+506053014	purulent chronic bronchitis	H3110	H311000	84409004	506053014		32
+2010061000006113	acute non-infective exacerbation of chronic obstructive pulmonary disease	EMISNQAC878		847091000000104	2196421000000114		32
+8287171000006115	acute non-infective exacerbation of copd (chronic obstructive pulmonary disease)	^ESCTAC828717		847091000000104	2196431000000111		32
+2199261000000110	chronic obstructive pulmonary disease care pathway	8CMW5	8CMW500	848431000000106	2199261000000110		32
+8288261000006119	copd (chronic obstructive pulmonary disease) care pathway	^ESCTCO828826		848431000000106	2199291000000116		32
+851261000006116	chronic bronchitis, acute exac	EMISR4QCH1		851261000006100	851261000006116		32
+8294561000006110	seen in copd (chronic obstructive pulmonary disease) clinic	^ESCTSE829456		857661000000104	2219581000000119		37
+2219551000000113	seen in chronic obstructive pulmonary disease clinic	9Nk70	9Nk7000	857661000000104	2219551000000113		37
+2219861000000114	chronic obstructive pulmonary disease rescue pack declined	8IEZ	8IEZ.00	857791000000103	2219861000000114		32
+8294651000006114	copd (chronic obstructive pulmonary disease) rescue pack declined	^ESCTCO829465		857791000000103	2219871000000119		32
+1885981000006112	chronic obstructive pulmon dis wr self managem plan declined	8IEy	8IEy.00	857811000000102	2219921000000111		32
+8294671000006116	copd (chronic obstructive pulmonary disease) written self management plan declined	^ESCTCO829467		857811000000102	2219931000000113		32
+301477019	emphysema nos	H32z	H32z.00	87433001	144964015		32
+640491000006111	emphysema	H32	H32..00	87433001	144964015		32
+301835010	[x]other emphysema	Hyu30	Hyu3000	87433001	144964015		32
+301469018	other emphysema	H32y	H32y.00	87433001	144964015		32
+396110016	other emphysema nos	H32yz	H32yz00	87433001	144964015		32
+3921361000006112	emphysema of lung	^ESCTEM392136		87433001	144967010		32
+1904861000006117	chronic obstruct pulmonary disease management plan declined	66Yz1	66Yz100	892321000000109	2297691000000114		1
+8312921000006111	copd (chronic obstructive pulmonary disease) management plan declined	^ESCTCO831292		892321000000109	2297721000000117		1
+508562012	chronic catarrhal bronchitis	H3100	H310000	89549007	508562012		32
+3955621000006112	catarrhal bronchitis	^ESCTCA395562		89549007	148474017		32
+8316481000006116	shared care copd (chronic obstructive pulmonary disease) monitoring	^ESCTSH831648		897311000000101	2312551000000112		1
+2308511000000113	shared care chronic obstructive pulmonary disease monitoring	66Yz2	66Yz200	897311000000101	2308511000000113		1
+909711000006111	[rfc] chronic obstructive pulmonary disease (copd)	HNGNQRF16		909711000006107	909711000006111		12
+909721000006115	[rfc] emphysema	HNGNQRF17		909721000006104	909721000006115		12
+939991000006112	copd medication review	EMISNQCO1		939991000006108	939991000006112		32
+940131000006118	copd monitoring administration	EMISNQCO2		940131000006102	940131000006118		37
+940141000006111	copd monitoring invite 1	EMISNQCO3		940141000006107	940141000006111		37
+940151000006113	copd monitoring invite 2	EMISNQCO4		940151000006109	940151000006113		37
+940161000006110	copd monitoring invite 3	EMISNQCO5		940161000006106	940161000006110		37
+2408831000000112	chronic obstructive pulmonary disease resolved	2126F	2126F00	941201000000103	2408831000000112		27
