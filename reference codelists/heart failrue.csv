@@ -1,0 +1,99 @@
+code,coding_system,description,entity,list_name,upload_date
+1165040000000000,SNOMED,Heart failure resolved,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+1233859018,SNOMED,Congenital left ventricular diverticulum,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+139475013,SNOMED,Heart failure,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+139481017,SNOMED,Weak heart,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+139482012,SNOMED,Cardiac failure,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+141306010,SNOMED,Left ventricular failure,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+147247018,SNOMED,Chronic congestive heart failure,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+1484901018,SNOMED,Heart failure screen,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+1484917012,SNOMED,Heart failure follow-up,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+1484918019,SNOMED,Heart failure annual review,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+1488591011,SNOMED,Suspected heart failure,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+1488629013,SNOMED,Heart failure excluded,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+1488804017,SNOMED,Heart failure confirmed,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+1489358014,SNOMED,Left ventricular diastolic dysfunction,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+1495417010,SNOMED,Asthma - cardiac,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+1561950000000000,SNOMED,Excepted heart failure quality indicators: Informed dissent,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+1576320000000000,SNOMED,Cause of Death- Congestive Cardiac Failure,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+1647700000000000,SNOMED,Heart failure with normal ejection fraction,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+1661370000000000,SNOMED,HFNEF - heart failure with normal ejection fraction,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+1693910000000000,SNOMED,Referral to heart failure education group declined,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+1705340000000000,SNOMED,Discharge from heart failure nurse service,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+1734080000000000,SNOMED,Referral to heart failure exercise programme declined,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+1746170000000000,SNOMED,Has heart failure management plan,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+1784060000000000,SNOMED,Preferred place of care for next exacerbation heart failure,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+1816100000000000,SNOMED,Right ventricular failure,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+18472010,SNOMED,Acute congestive heart failure,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+1861730000000000,SNOMED,AURAS-AF - consider the patient to have heart failure,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+206703015,SNOMED,Right heart failure,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+2115780000000000,SNOMED,Heart failure self-management plan review,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+2117930000000000,SNOMED,Heart failure self-management plan agreed,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+2122190000000000,SNOMED,Education about deteriorating heart failure,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+2159197017,SNOMED,Echocardiogram shows left ventricular systolic dysfunction,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+2159198010,SNOMED,Echocardiogram shows left ventricular diastolic dysfunction,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+216184014,SNOMED,Congestive heart failure monitoring,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+216207010,SNOMED,Left ventricular systolic dysfunction,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+216246012,SNOMED,Referral to heart failure clinic,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+2205950000000000,SNOMED,Heart failure clinical pathway,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+2227500000000000,SNOMED,Heart failure with preserved ejection fraction,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+223981000000000,SNOMED,Cardiac failure NOS,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+2256810000000000,SNOMED,Referral to rapid access heart failure clinic,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+226181000000000,SNOMED,Left ventricular dysfunction monitoring administration,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+2352390000000000,SNOMED,On optimal heart failure therapy,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+251680018,SNOMED,H/O: heart failure,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+2533628012,SNOMED,Left ventricular dysfunction monitoring first letter,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+2533629016,SNOMED,Left ventricular dysfunction monitoring second letter,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+2533630014,SNOMED,Left ventricular dysfunction monitoring third letter,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+2548316014,SNOMED,Seen by community heart failure nurse,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+2548656015,SNOMED,Right ventricular systolic dysfunction,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+2549089012,SNOMED,Left ventricular dysfunction monitoring verbal invite,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+2549128016,SNOMED,Right ventricular diastolic dysfunction,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+2549208013,SNOMED,Admit heart failure emergency,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+2549243014,SNOMED,Seen in heart failure clinic,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+2549697018,SNOMED,Referral to heart failure nurse,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+2645623019,SNOMED,Heart failure education,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+2675255018,SNOMED,Congestive heart failure due to valvular disease,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+2694523019,SNOMED,Left ventricular cardiac dysfunction,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+300179017,SNOMED,Decompensated cardiac failure,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+300180019,SNOMED,Compensated cardiac failure,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+300190010,SNOMED,Acute left ventricular failure,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+300217019,SNOMED,Post cardiac operation heart failure NOS,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+303361000000000,SNOMED,Referred by heart failure nurse specialist,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+303441000000000,SNOMED,Discharge from practice nurse heart failure clinic,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+305601017,SNOMED,Cardiac failure following abortive pregnancy,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+308041000000000,SNOMED,Referral to heart failure exercise programme,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+308231000000000,SNOMED,Heart failure monitoring administration,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+308261000000000,SNOMED,Heart failure review completed,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+308301000000000,SNOMED,Heart failure care plan discussed with patient,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+311561000000000,SNOMED,Referred to heart failure education group,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+316833010,SNOMED,Congenital cardiac failure,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+350484012,SNOMED,Heart failure as a complication of care,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+355821000000000,SNOMED,Relief of left ventricular outflow tract obstruction,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+377513011,SNOMED,Right ventricular dilatation,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+377524013,SNOMED,Right ventricular outflow tract obstruction,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+395772015,SNOMED,Heart failure NOS,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+404741000000000,SNOMED,Heart failure 6 month review,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+406801000000000,SNOMED,Heart failure monitoring telephone invite,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+407001000000000,SNOMED,Left ventricular dysfunction monitoring telephone invite,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+407041000000000,SNOMED,Heart failure monitoring verbal invite,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+407061000000000,SNOMED,Heart failure monitoring first letter,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+407081000000000,SNOMED,Heart failure monitoring second letter,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+407101000000000,SNOMED,Heart failure monitoring third letter,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+407441000000000,SNOMED,Exception reporting: heart failure quality indicators,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+411506018,SNOMED,Impaired left ventricular function,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+412678013,SNOMED,Neonatal cardiac failure,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+451426015,SNOMED,Cardiac failure therapy,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+453099015,SNOMED,H/O: Heart failure in last year,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+490972013,SNOMED,Right ventricular failure,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+493287011,SNOMED,Congestive cardiac failure,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+510016018,SNOMED,Biventricular failure,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+70653017,SNOMED,Congestive heart failure,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+72934016,SNOMED,Rheumatic left ventricular failure,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+741701000000000,SNOMED,Hypertensive heart&renal dis wth (congestive) heart failure,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+784191000000000,SNOMED,Impaired left ventricular function,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+789941000000000,SNOMED,Hyperten heart&renal dis+both(congestv)heart and renal fail,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+833381000000000,SNOMED,New York Heart Assoc classification heart failure symptoms,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+905391000000000,SNOMED,[RFC] Cardiac failure,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+92841017,SNOMED,Left ventricular hypertrophy,diagnostic,966 - res185: hear failure (Aurum),2021/11/16
+94251011,SNOMED,Acute heart failure,diagnostic,966 - res185: hear failure (Aurum),2021/11/16

@@ -1,0 +1,162 @@
+code,coding_system,description,entity,list_name,upload_date
+1.00771E+14,SNOMED,thrombosis; carotid artery,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+104563015,SNOMED,cerebrovascular disease,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+107332010,SNOMED,carotid artery stenosis,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1.13018E+15,SNOMED,small vessel cerebrovascular disease,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1.16047E+15,SNOMED,stroke 6 month review,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+118689010,SNOMED,cerebral thrombosis,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1212072018,SNOMED,occlusive stroke,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1222398015,SNOMED,cerebral arterial occlusion,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1.22361E+14,SNOMED,stroke due to cerebral arterial occlusion,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1.22371E+14,SNOMED,stroke due to intracerebral haemorrhage,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1.22401E+14,SNOMED,stroke unspecified,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1227591017,SNOMED,[v]personal history of stroke,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1227592012,SNOMED,[v]personal history of cerebrovascular accident (cva),diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1.23441E+14,SNOMED,subarachnoid haemorrh from intracranial artery; unspecif,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1.23481E+14,SNOMED,subarachnoid haemorrhage from anterior communicating artery,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1.23491E+14,SNOMED,subarachnoid haemorrhage from basilar artery,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1.23511E+14,SNOMED,subarachnoid haemorrhage from middle cerebral artery,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1.23521E+14,SNOMED,subarachnoid haemorrhage from posterior communicating artery,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+125470015,SNOMED,cerebral embolism,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1.26301E+14,SNOMED,stenosis of precerebral arteries,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1.26531E+14,SNOMED,stenosis; carotid artery,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1.49551E+14,SNOMED,sequelae of other nontraumatic intracranial haemorrhage,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1.49571E+14,SNOMED,sequelae of stroke;not specfd as h'morrhage or infarction,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1.49701E+14,SNOMED,sequelae/other + unspecified cerebrovascular diseases,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1.56258E+15,SNOMED,stroke/transient ischaemic attack monitoring telephone invte,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+158118014,SNOMED,cerebellar infarction,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1.63261E+14,SNOMED,right sided intracerebral haemorrhage; unspecified,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1.72658E+15,SNOMED,central post-stroke pain,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1.77337E+15,SNOMED,cerebrovascular accident care plan,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1780304018,SNOMED,stroke/cva annual review,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1.85554E+15,SNOMED,cerebrovascular disease monitoring admin.,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1.85555E+15,SNOMED,cerebrovascular disease monitoring in primary care,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1.85556E+15,SNOMED,cerebrovascular disease monitoring in secondary care,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1.85557E+15,SNOMED,cerebrovascular disease monitoring default,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1.85705E+15,SNOMED,cerebrovascular disease management,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+1.99476E+15,SNOMED,referral to stroke rehabilitation service,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+2.12618E+15,SNOMED,stroke annual review,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+2.12778E+15,SNOMED,stroke initial post discharge review,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+2.18511E+14,SNOMED,infarction - cerebral,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+2.36331E+14,SNOMED,stroke/transient ischaemic attack monitoring administration,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+2469365010,SNOMED,stroke / transient ischaemic attack referral,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+2474330011,SNOMED,referral to stroke clinic,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+2476091017,SNOMED,h/o: stroke,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+2534196010,SNOMED,stroke/transient ischaemic attack monitoring third letter,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+2534198011,SNOMED,subdural haemorrhage nos,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+2534212018,SNOMED,stroke/transient ischaemic attack monitoring second letter,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+2534253014,SNOMED,stroke/transient ischaemic attack monitoring first letter,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+2548554013,SNOMED,haemorrhagic stroke monitoring,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+264499015,SNOMED,stroke monitoring,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+265692011,SNOMED,evacuation of intracerebral haematoma nec,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+2.67311E+14,SNOMED,occlusion+stenosis of multiple and bilat cerebral arteries,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+297013012,SNOMED,cerebral degeneration due to cerebrovascular disease,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+299342019,SNOMED,[x]other lacunar syndromes,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300242011,SNOMED,ruptured berry aneurysm,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300244012,SNOMED,subarachnoid haemorrhage from carotid siphon and bifurcation,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300253017,SNOMED,subarachnoid haemorrhage from vertebral artery,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300257016,SNOMED,subarachnoid haemorrhage nos,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300277011,SNOMED,intracerebral haemorrhage; intraventricular,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300287010,SNOMED,intracerebral haemorrhage nos,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300290016,SNOMED,other and unspecified intracranial haemorrhage,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300294013,SNOMED,subdural haemorrhage - nontraumatic,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300298011,SNOMED,intracranial haemorrhage nos,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300310019,SNOMED,multiple and bilateral precerebral arterial occlusion,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300311015,SNOMED,other precerebral artery occlusion,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300312010,SNOMED,cerebral infarct due to thrombosis of precerebral arteries,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300313017,SNOMED,cerebral infarction due to embolism of precerebral arteries,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300314011,SNOMED,precerebral artery occlusion nos,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300321011,SNOMED,cerebral infarction due to thrombosis of cerebral arteries,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300322016,SNOMED,cerebral infarction due to embolism of cerebral arteries,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300345010,SNOMED,multiple and bilateral precerebral artery syndromes,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300348012,SNOMED,other transient cerebral ischaemia,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300349016,SNOMED,transient cerebral ischaemia nos,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300353019,SNOMED,intermittent cerebral ischaemia,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300362017,SNOMED,middle cerebral artery syndrome,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300363010,SNOMED,anterior cerebral artery syndrome,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300364016,SNOMED,posterior cerebral artery syndrome,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300366019,SNOMED,cerebellar stroke syndrome,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300374018,SNOMED,other cerebrovascular disease,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300379011,SNOMED,generalised ischaemic cerebrovascular disease nos,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300395011,SNOMED,occlusion and stenosis of middle cerebral artery,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300396012,SNOMED,occlusion and stenosis of anterior cerebral artery,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300398013,SNOMED,occlusion and stenosis of posterior cerebral artery,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300401011,SNOMED,other cerebrovascular disease os,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300402016,SNOMED,other cerebrovascular disease nos,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300403014,SNOMED,late effects of cerebrovascular disease,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300406018,SNOMED,sequelae of subarachnoid haemorrhage,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300407010,SNOMED,sequelae of intracerebral haemorrhage,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300418010,SNOMED,other specified cerebrovascular disease,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300419019,SNOMED,cerebrovascular disease nos,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300935019,SNOMED,[x]subarachnoid haemorrhage from other intracranial arteries,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300936018,SNOMED,[x]other subarachnoid haemorrhage,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300939013,SNOMED,[x]other intracerebral haemorrhage,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300941014,SNOMED,[x]other cerebral infarction,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300942019,SNOMED,[x]occlusion and stenosis of other precerebral arteries,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300943012,SNOMED,[x]occlusion and stenosis of other cerebral arteries,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300944018,SNOMED,[x]other specified cerebrovascular diseases,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+300956017,SNOMED,[x]intracerebral haemorrhage in hemisphere; unspecified,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+3.06621E+14,SNOMED,seen in stroke clinic,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+345639010,SNOMED,infarction - precerebral,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+345655015,SNOMED,pure motor lacunar syndrome,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+345658018,SNOMED,pure sensory lacunar syndrome,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+360778011,SNOMED,chronic cerebral ischaemia,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+3.70661E+14,SNOMED,[x]cereb infarct due unsp occlus/stenos precerebr arteries,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+3.70701E+14,SNOMED,[x]cerebrl infarctn due/unspcf occlusn or sten/cerebrl artrs,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+3.70711E+14,SNOMED,[x]cerebrovascular diseases,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+3.71641E+14,SNOMED,delivery of rehabilitation for stroke,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+395777014,SNOMED,precerebral arterial occlusion,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+395778016,SNOMED,carotid artery occlusion,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+395780010,SNOMED,cerebral infarction nos,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+395783012,SNOMED,transient ischaemic attack,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+395788015,SNOMED,transient cerebral ischaemia,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+405339016,SNOMED,stroke and cerebrovascular accident unspecified,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+4.07291E+14,SNOMED,[x]other cerebrovascular disorders in diseases ce,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+411518010,SNOMED,h/o: cva,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+413750011,SNOMED,central post-stroke pain,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+4.16991E+14,SNOMED,[x]other transnt cerebral ischaemic attacks+related syndroms,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+4.26231E+14,SNOMED,[x]sequelae of other nontraumatic intracranial haemorrhage,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+4.26321E+14,SNOMED,[x]sequelae of stroke;not specfd as h'morrhage or infarction,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+4.26481E+14,SNOMED,[x]sequelae/other + unspecified cerebrovascular diseases,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+4.28181E+14,SNOMED,[x]subarachnoid haemorrh from intracranial artery; unspecif,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+449935012,SNOMED,admission to stroke unit,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+451133011,SNOMED,left sided cerebral infarction,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+451368019,SNOMED,h/o: cerebrovascular disease,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+451371010,SNOMED,h/o: stroke in last year,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+480952017,SNOMED,perinatal subarachnoid haemorrhage,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+481028017,SNOMED,subarachnoid haemorrhage,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+502878012,SNOMED,cerebellar haemorrhage,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+5.24511E+14,SNOMED,brain stem stroke syndrome,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+5.42831E+14,SNOMED,cerebral embolus,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+6.05461E+14,SNOMED,cva - cerebral artery occlusion,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+6.05471E+14,SNOMED,cva - cerebrovascular accid due to intracerebral haemorrhage,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+6.05491E+14,SNOMED,cva - cerebrovascular accident unspecified,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+6.05501E+14,SNOMED,cva unspecified,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+7.44901E+14,SNOMED,intracerebral haemorrhage,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+7.44921E+14,SNOMED,intracerebral haemorrhage in hemisphere; unspecified,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+7.46571E+14,SNOMED,intracerebral haemorrhage; multiple localized,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+7.48941E+14,SNOMED,left sided intracerebral haemorrhage; unspecified,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+8.00691E+14,SNOMED,generalised ischaemic cerebrovascular disease nos,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+8.09421E+14,SNOMED,h/o: cva/stroke,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+8.84421E+14,SNOMED,cerebral haemorrhage,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+8.84441E+14,SNOMED,subdural haemorrhage,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+8.84451E+14,SNOMED,cerebral haemorrhage nos,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+8.84471E+14,SNOMED,carotid artery occluded,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+8.84491E+14,SNOMED,precerebral a. occlusion nos,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+8.84501E+14,SNOMED,cerebral a. occlusion nos,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+8.84511E+14,SNOMED,transient ischaemic attacks,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+8.84521E+14,SNOMED,stroke/cva - undefined,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+8.84531E+14,SNOMED,stroke,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+8.84561E+14,SNOMED,cerebrovasc. dis. late effects,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+9.07581E+14,SNOMED,[rfc] stroke/cva,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+9.07591E+14,SNOMED,[rfc] stroke,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+9.08801E+14,SNOMED,[rfc] stroke,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+9.40051E+14,SNOMED,stroke monitoring administration,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+9.40061E+14,SNOMED,stroke monitoring invite 1,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+9.40071E+14,SNOMED,stroke monitoring invite 2,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+9.40081E+14,SNOMED,stroke monitoring invite 3,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+9.5931E+13,SNOMED,transient cerebral ischaemia nos,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+9.86831E+14,SNOMED,stroke/transient ischaemic attack monitoring verbal invitati,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+9.88951E+14,SNOMED,transient ischaemic attacks,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+9.89201E+14,SNOMED,cerebral haemorrhage,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
+9.89211E+14,SNOMED,cerebral haemorrhage nos,diagnostic,968 - res185: Cerebrovascular disease (Aurum),2021-11-16
