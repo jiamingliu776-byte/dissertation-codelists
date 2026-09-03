@@ -60,45 +60,45 @@ AF has 5 expert codelists for inter-expert agreement analysis. AF-1 is used as t
 
 ## Table 2: Main Results — All Conditions x 3 Models (Results)
 
-| Condition | Model | Searches | AI Codes | Ref Codes | Precision | Recall | F1 | Jaccard |
-|---|---|---:|---:|---:|---:|---:|---:|---:|
-| Atrial Fibrillation | GPT-5.4 Mini | 6 | 46 | 18 | 0.348 | 0.889 | 0.500 | 0.333 |
-| | Claude Sonnet 5 | 9 | 33 | 18 | 0.485 | 0.889 | 0.628 | 0.457 |
-| | Gemini 3.6 Flash | 7 | 31 | 18 | 0.516 | 0.889 | 0.653 | 0.485 |
-| Heart Failure | GPT-5.4 Mini | 8 | 63 | 84 | 0.333 | 0.250 | 0.286 | 0.167 |
-| | Claude Sonnet 5 | 10 | 124 | 84 | 0.234 | 0.345 | 0.279 | 0.162 |
-| | Gemini 3.6 Flash | 10 | 99 | 84 | 0.293 | 0.345 | 0.317 | 0.188 |
-| Cerebrovascular Disease | GPT-5.4 Mini | 12 | 84 | 130 | 0.333 | 0.215 | 0.262 | 0.151 |
-| | Claude Sonnet 5 | 16 | 426 | 130 | 0.169 | 0.554 | 0.259 | 0.149 |
-| | Gemini 3.6 Flash | 17 | 304 | 130 | 0.168 | 0.392 | 0.235 | 0.133 |
-| Hypertension | GPT-5.4 Mini | 10 | 110 | 214 | 0.555 | 0.285 | 0.377 | 0.232 |
-| | Claude Sonnet 5 | 14 | 153 | 214 | 0.582 | 0.416 | 0.485 | 0.320 |
-| | Gemini 3.6 Flash | 9 | 172 | 214 | 0.570 | 0.458 | 0.508 | 0.340 |
-| Myocardial Infarction | GPT-5.4 Mini | 6 | 79 | 127 | 0.570 | 0.354 | 0.437 | 0.280 |
-| | Claude Sonnet 5 | 6 | 169 | 127 | 0.367 | 0.488 | 0.419 | 0.265 |
-| | Gemini 3.6 Flash | 16 | 191 | 127 | 0.429 | 0.646 | 0.516 | 0.348 |
-| Peripheral Arterial Disease | GPT-5.4 Mini | 10 | 36 | 386 | 0.472 | 0.044 | 0.081 | 0.042 |
-| | Claude Sonnet 5 | 17 | 204 | 386 | 0.260 | 0.137 | 0.180 | 0.099 |
-| | Gemini 3.6 Flash | 22 | 206 | 386 | 0.243 | 0.130 | 0.169 | 0.092 |
-| COPD | GPT-5.4 Mini | 5 | 62 | 212 | 0.790 | 0.231 | 0.358 | 0.218 |
-| | Claude Sonnet 5 | 12 | 111 | 212 | 0.676 | 0.354 | 0.464 | 0.302 |
-| | Gemini 3.6 Flash | 8 | 116 | 212 | 0.690 | 0.377 | 0.488 | 0.323 |
-| Asthma | GPT-5.4 Mini | 5 | 85 | 169 | 0.541 | 0.272 | 0.362 | 0.221 |
-| | Claude Sonnet 5 | 3 | 97 | 169 | 0.536 | 0.308 | 0.391 | 0.243 |
-| | Gemini 3.6 Flash | 9 | 164 | 169 | 0.366 | 0.355 | 0.360 | 0.220 |
-| Insulin | GPT-5.4 Mini | 8 | 169 | 224 | 0.669 | 0.504 | 0.575 | 0.404 |
-| | Claude Sonnet 5 | 26 | 183 | 224 | 0.792 | 0.647 | 0.713 | 0.553 |
-| | Gemini 3.6 Flash | 8 | 182 | 224 | 0.791 | 0.643 | 0.709 | 0.550 |
-| Metformin | GPT-5.4 Mini | 4 | 60 | 79 | 0.867 | 0.658 | 0.748 | 0.598 |
-| | Claude Sonnet 5 | 25 | 91 | 79 | 0.802 | 0.924 | 0.859 | 0.753 |
-| | Gemini 3.6 Flash | 8 | 91 | 79 | 0.802 | 0.924 | 0.859 | 0.753 |
+| Condition | Model | Searches | AI Codes | Ref Codes | Precision | Recall | F1 |
+|---|---|---:|---:|---:|---:|---:|---:|
+| Atrial Fibrillation | GPT-5.4 Mini | 6 | 46 | 18 | 0.348 | 0.889 | 0.500 |
+| | Claude Sonnet 5 | 9 | 33 | 18 | 0.485 | 0.889 | 0.628 |
+| | Gemini 3.6 Flash | 7 | 31 | 18 | 0.516 | 0.889 | 0.653 |
+| Heart Failure | GPT-5.4 Mini | 8 | 63 | 84 | 0.333 | 0.250 | 0.286 |
+| | Claude Sonnet 5 | 10 | 124 | 84 | 0.234 | 0.345 | 0.279 |
+| | Gemini 3.6 Flash | 10 | 99 | 84 | 0.293 | 0.345 | 0.317 |
+| Cerebrovascular Disease | GPT-5.4 Mini | 12 | 84 | 130 | 0.333 | 0.215 | 0.262 |
+| | Claude Sonnet 5 | 16 | 426 | 130 | 0.169 | 0.554 | 0.259 |
+| | Gemini 3.6 Flash | 17 | 304 | 130 | 0.168 | 0.392 | 0.235 |
+| Hypertension | GPT-5.4 Mini | 10 | 110 | 214 | 0.555 | 0.285 | 0.377 |
+| | Claude Sonnet 5 | 14 | 153 | 214 | 0.582 | 0.416 | 0.485 |
+| | Gemini 3.6 Flash | 9 | 172 | 214 | 0.570 | 0.458 | 0.508 |
+| Myocardial Infarction | GPT-5.4 Mini | 6 | 79 | 127 | 0.570 | 0.354 | 0.437 |
+| | Claude Sonnet 5 | 6 | 169 | 127 | 0.367 | 0.488 | 0.419 |
+| | Gemini 3.6 Flash | 16 | 191 | 127 | 0.429 | 0.646 | 0.516 |
+| Peripheral Arterial Disease | GPT-5.4 Mini | 10 | 36 | 386 | 0.472 | 0.044 | 0.081 |
+| | Claude Sonnet 5 | 17 | 204 | 386 | 0.260 | 0.137 | 0.180 |
+| | Gemini 3.6 Flash | 22 | 206 | 386 | 0.243 | 0.130 | 0.169 |
+| COPD | GPT-5.4 Mini | 5 | 62 | 212 | 0.790 | 0.231 | 0.358 |
+| | Claude Sonnet 5 | 12 | 111 | 212 | 0.676 | 0.354 | 0.464 |
+| | Gemini 3.6 Flash | 8 | 116 | 212 | 0.690 | 0.377 | 0.488 |
+| Asthma | GPT-5.4 Mini | 5 | 85 | 169 | 0.541 | 0.272 | 0.362 |
+| | Claude Sonnet 5 | 3 | 97 | 169 | 0.536 | 0.308 | 0.391 |
+| | Gemini 3.6 Flash | 9 | 164 | 169 | 0.366 | 0.355 | 0.360 |
+| Insulin | GPT-5.4 Mini | 8 | 169 | 224 | 0.669 | 0.504 | 0.575 |
+| | Claude Sonnet 5 | 26 | 183 | 224 | 0.792 | 0.647 | 0.713 |
+| | Gemini 3.6 Flash | 8 | 182 | 224 | 0.791 | 0.643 | 0.709 |
+| Metformin | GPT-5.4 Mini | 4 | 60 | 79 | 0.867 | 0.658 | 0.748 |
+| | Claude Sonnet 5 | 25 | 91 | 79 | 0.802 | 0.924 | 0.859 |
+| | Gemini 3.6 Flash | 8 | 91 | 79 | 0.802 | 0.924 | 0.859 |
 
 ### Summary by model (mean across 10 conditions):
-| Model | Mean F1 | Mean Jaccard | Mean Precision | Mean Recall | Mean Searches |
-|---|---:|---:|---:|---:|---:|
-| GPT-5.4 Mini | 0.399 | 0.245 | 0.527 | 0.390 | 7.4 |
-| Claude Sonnet 5 | 0.468 | 0.310 | 0.460 | 0.466 | 13.8 |
-| Gemini 3.6 Flash | 0.481 | 0.343 | 0.470 | 0.516 | 11.4 |
+| Model | Mean F1 | Mean Precision | Mean Recall | Mean Searches |
+|---|---:|---:|---:|---:|
+| GPT-5.4 Mini | 0.399 | 0.527 | 0.390 | 7.4 |
+| Claude Sonnet 5 | 0.468 | 0.460 | 0.466 | 13.8 |
+| Gemini 3.6 Flash | 0.481 | 0.470 | 0.516 | 11.4 |
 
 ### Summary by condition group:
 | Group | Conditions | GPT Mean F1 | Claude Mean F1 | Gemini Mean F1 |
