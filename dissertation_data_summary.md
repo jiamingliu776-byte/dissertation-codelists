@@ -32,22 +32,22 @@
 
 | Condition | Dictionary | Source | Source Codes | In Dictionary | Not in Dictionary | Coverage |
 |---|---|---|---:|---:|---:|---:|
-| Atrial Fibrillation (AF-1) | Medical | ClinicalCodes | 18 | 18 | 0 | 100.0% |
+| Atrial Fibrillation (AF-1) | Medical | ClinicalCodes | 21 | 18 | 3 | 85.7% |
 | Atrial Fibrillation (AF-2) | Medical | HDR UK | 43 | 38 | 5 | 88.4% |
 | Atrial Fibrillation (AF-3) | Medical | LSHTM | 35 | 30 | 5 | 85.7% |
 | Atrial Fibrillation (AF-4) | Medical | LSHTM | 25 | 25 | 0 | 100.0% |
 | Atrial Fibrillation (AF-5) | Medical | LSHTM | 37 | 31 | 6 | 83.8% |
-| Heart Failure | Medical | ClinicalCodes | 84 | 84 | 0 | 100.0% |
-| Cerebrovascular Disease | Medical | ClinicalCodes | 130 | 130 | 0 | 100.0% |
+| Heart Failure | Medical | ClinicalCodes | 98 | 84 | 14 | 85.7% |
+| Cerebrovascular Disease | Medical | ClinicalCodes | 161 | 130 | 31 | 80.7% |
 | Hypertension | Medical | LSHTM | 234 | 214 | 20 | 91.5% |
 | Myocardial Infarction | Medical | LSHTM | 165 | 127 | 38 | 77.0% |
 | Peripheral Arterial Disease | Medical | LSHTM | 443 | 386 | 57 | 87.1% |
 | COPD | Medical | LSHTM | 232 | 212 | 20 | 91.4% |
 | Asthma | Medical | LSHTM | 188 | 169 | 19 | 89.9% |
-| Insulin | Product | ClinicalCodes | 224 | 224 | 0 | 100.0% |
-| Metformin | Product | ClinicalCodes | 79 | 79 | 0 | 100.0% |
+| Insulin | Product | ClinicalCodes | 255 | 224 | 31 | 87.8% |
+| Metformin | Product | ClinicalCodes | 90 | 79 | 11 | 87.8% |
 
-Note: "In Dictionary" is the effective reference size used for evaluation. LSHTM-sourced codelists contain codes not present in the current CPRD Aurum dictionary version, which count as unreachable FN.
+Note: "In Dictionary" is the effective reference size used for evaluation. LSHTM-sourced codelists already use CPRD Aurum medcodeids but may contain codes not present in the current dictionary version. ClinicalCodes-sourced codelists use SNOMED codes and were matched to CPRD Aurum medcodeids/prodcodeids; unmatched codes count as "Not in Dictionary". Codes not in the dictionary are unreachable and excluded from evaluation.
 
 Reference sources:
 - ClinicalCodes: https://clinicalcodes.rss.mhs.man.ac.uk/

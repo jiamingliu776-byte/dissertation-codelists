@@ -107,7 +107,7 @@ print("Figure 1: Pipeline workflow SVG saved")
 # Figure 2: F1 by Condition and Model
 # ══════════════════════════════════════════════════════════
 
-conditions = ["PAD", "CVD", "HF", "Asthma", "COPD", "Hyp", "MI", "AF", "Insulin", "Metformin"]
+conditions = ["PAD", "CeVD", "HF", "Asthma", "COPD", "HTN", "MI", "AF", "Insulin", "Metformin"]
 gpt_f1 =    [0.081, 0.262, 0.286, 0.362, 0.358, 0.377, 0.437, 0.500, 0.575, 0.748]
 claude_f1 = [0.180, 0.259, 0.279, 0.391, 0.464, 0.485, 0.419, 0.628, 0.713, 0.859]
 gemini_f1 = [0.169, 0.235, 0.317, 0.360, 0.488, 0.508, 0.516, 0.653, 0.709, 0.859]
@@ -238,7 +238,7 @@ print("Figure 3: Error classification SVG saved")
 
 fig, ax = plt.subplots(figsize=(8, 5.5))
 
-groups = ['Cardiovascular\n(AF, HF, CVD, Hyp, MI, PAD)', 'Respiratory\n(COPD, Asthma)', 'Drug Products\n(Insulin, Metformin)']
+groups = ['Cardiovascular\n(AF, HF, CeVD, HTN, MI, PAD)', 'Respiratory\n(COPD, Asthma)', 'Drug Products\n(Insulin, Metformin)']
 gpt_g = [0.324, 0.360, 0.662]
 claude_g = [0.375, 0.428, 0.786]
 gemini_g = [0.400, 0.424, 0.784]
