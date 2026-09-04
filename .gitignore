@@ -1,3 +1,6 @@
+# Dissertation data summary (not for GitHub)
+dissertation_data_summary.*
+
 # Large embedding files (regenerate with embed_dictionary.py)
 *.npy
 
