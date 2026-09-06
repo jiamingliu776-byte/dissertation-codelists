@@ -24,29 +24,29 @@ Atrial Fibrillation,Gemini_3.6_Flash,Sequelae/historical code,0
 Atrial Fibrillation,Gemini_3.6_Flash,Complication code,0
 Atrial Fibrillation,Gemini_3.6_Flash,Missed valid diagnosis,0
 Heart Failure,GPT-5.4_Mini,Not in dictionary,0
-Heart Failure,GPT-5.4_Mini,Administrative/monitoring code,30
+Heart Failure,GPT-5.4_Mini,Administrative/monitoring code,31
 Heart Failure,GPT-5.4_Mini,Procedural/surgical code,1
 Heart Failure,GPT-5.4_Mini,Cause-of-death code,1
 Heart Failure,GPT-5.4_Mini,History/resolved code,1
 Heart Failure,GPT-5.4_Mini,Sequelae/historical code,0
 Heart Failure,GPT-5.4_Mini,Complication code,1
-Heart Failure,GPT-5.4_Mini,Missed valid diagnosis,29
+Heart Failure,GPT-5.4_Mini,Missed valid diagnosis,28
 Heart Failure,Claude_Sonnet_5,Not in dictionary,0
-Heart Failure,Claude_Sonnet_5,Administrative/monitoring code,30
+Heart Failure,Claude_Sonnet_5,Administrative/monitoring code,31
 Heart Failure,Claude_Sonnet_5,Procedural/surgical code,0
 Heart Failure,Claude_Sonnet_5,Cause-of-death code,0
 Heart Failure,Claude_Sonnet_5,History/resolved code,3
 Heart Failure,Claude_Sonnet_5,Sequelae/historical code,0
 Heart Failure,Claude_Sonnet_5,Complication code,0
-Heart Failure,Claude_Sonnet_5,Missed valid diagnosis,22
+Heart Failure,Claude_Sonnet_5,Missed valid diagnosis,21
 Heart Failure,Gemini_3.6_Flash,Not in dictionary,0
-Heart Failure,Gemini_3.6_Flash,Administrative/monitoring code,30
+Heart Failure,Gemini_3.6_Flash,Administrative/monitoring code,31
 Heart Failure,Gemini_3.6_Flash,Procedural/surgical code,0
 Heart Failure,Gemini_3.6_Flash,Cause-of-death code,0
 Heart Failure,Gemini_3.6_Flash,History/resolved code,3
 Heart Failure,Gemini_3.6_Flash,Sequelae/historical code,0
 Heart Failure,Gemini_3.6_Flash,Complication code,0
-Heart Failure,Gemini_3.6_Flash,Missed valid diagnosis,22
+Heart Failure,Gemini_3.6_Flash,Missed valid diagnosis,21
 Cerebrovascular Disease,GPT-5.4_Mini,Not in dictionary,0
 Cerebrovascular Disease,GPT-5.4_Mini,Administrative/monitoring code,22
 Cerebrovascular Disease,GPT-5.4_Mini,Procedural/surgical code,0
@@ -72,29 +72,29 @@ Cerebrovascular Disease,Gemini_3.6_Flash,Sequelae/historical code,8
 Cerebrovascular Disease,Gemini_3.6_Flash,Complication code,0
 Cerebrovascular Disease,Gemini_3.6_Flash,Missed valid diagnosis,43
 Hypertension,GPT-5.4_Mini,Not in dictionary,20
-Hypertension,GPT-5.4_Mini,Administrative/monitoring code,45
+Hypertension,GPT-5.4_Mini,Administrative/monitoring code,59
 Hypertension,GPT-5.4_Mini,Procedural/surgical code,0
 Hypertension,GPT-5.4_Mini,Cause-of-death code,0
 Hypertension,GPT-5.4_Mini,History/resolved code,2
 Hypertension,GPT-5.4_Mini,Sequelae/historical code,0
 Hypertension,GPT-5.4_Mini,Complication code,0
-Hypertension,GPT-5.4_Mini,Missed valid diagnosis,106
+Hypertension,GPT-5.4_Mini,Missed valid diagnosis,92
 Hypertension,Claude_Sonnet_5,Not in dictionary,20
-Hypertension,Claude_Sonnet_5,Administrative/monitoring code,43
+Hypertension,Claude_Sonnet_5,Administrative/monitoring code,59
 Hypertension,Claude_Sonnet_5,Procedural/surgical code,0
 Hypertension,Claude_Sonnet_5,Cause-of-death code,0
 Hypertension,Claude_Sonnet_5,History/resolved code,2
 Hypertension,Claude_Sonnet_5,Sequelae/historical code,0
 Hypertension,Claude_Sonnet_5,Complication code,0
-Hypertension,Claude_Sonnet_5,Missed valid diagnosis,80
+Hypertension,Claude_Sonnet_5,Missed valid diagnosis,64
 Hypertension,Gemini_3.6_Flash,Not in dictionary,20
-Hypertension,Gemini_3.6_Flash,Administrative/monitoring code,42
+Hypertension,Gemini_3.6_Flash,Administrative/monitoring code,59
 Hypertension,Gemini_3.6_Flash,Procedural/surgical code,0
 Hypertension,Gemini_3.6_Flash,Cause-of-death code,0
 Hypertension,Gemini_3.6_Flash,History/resolved code,2
 Hypertension,Gemini_3.6_Flash,Sequelae/historical code,0
 Hypertension,Gemini_3.6_Flash,Complication code,0
-Hypertension,Gemini_3.6_Flash,Missed valid diagnosis,72
+Hypertension,Gemini_3.6_Flash,Missed valid diagnosis,55
 Myocardial Infarction,GPT-5.4_Mini,Not in dictionary,38
 Myocardial Infarction,GPT-5.4_Mini,Administrative/monitoring code,3
 Myocardial Infarction,GPT-5.4_Mini,Procedural/surgical code,3
@@ -144,53 +144,53 @@ Peripheral Arterial Disease,Gemini_3.6_Flash,Sequelae/historical code,0
 Peripheral Arterial Disease,Gemini_3.6_Flash,Complication code,0
 Peripheral Arterial Disease,Gemini_3.6_Flash,Missed valid diagnosis,96
 COPD,GPT-5.4_Mini,Not in dictionary,20
-COPD,GPT-5.4_Mini,Administrative/monitoring code,58
+COPD,GPT-5.4_Mini,Administrative/monitoring code,55
 COPD,GPT-5.4_Mini,Procedural/surgical code,0
 COPD,GPT-5.4_Mini,Cause-of-death code,0
 COPD,GPT-5.4_Mini,History/resolved code,1
 COPD,GPT-5.4_Mini,Sequelae/historical code,4
 COPD,GPT-5.4_Mini,Complication code,0
-COPD,GPT-5.4_Mini,Missed valid diagnosis,100
+COPD,GPT-5.4_Mini,Missed valid diagnosis,103
 COPD,Claude_Sonnet_5,Not in dictionary,20
-COPD,Claude_Sonnet_5,Administrative/monitoring code,69
+COPD,Claude_Sonnet_5,Administrative/monitoring code,65
 COPD,Claude_Sonnet_5,Procedural/surgical code,0
 COPD,Claude_Sonnet_5,Cause-of-death code,0
 COPD,Claude_Sonnet_5,History/resolved code,2
 COPD,Claude_Sonnet_5,Sequelae/historical code,0
 COPD,Claude_Sonnet_5,Complication code,0
-COPD,Claude_Sonnet_5,Missed valid diagnosis,66
+COPD,Claude_Sonnet_5,Missed valid diagnosis,70
 COPD,Gemini_3.6_Flash,Not in dictionary,20
-COPD,Gemini_3.6_Flash,Administrative/monitoring code,69
+COPD,Gemini_3.6_Flash,Administrative/monitoring code,65
 COPD,Gemini_3.6_Flash,Procedural/surgical code,0
 COPD,Gemini_3.6_Flash,Cause-of-death code,0
 COPD,Gemini_3.6_Flash,History/resolved code,4
 COPD,Gemini_3.6_Flash,Sequelae/historical code,0
 COPD,Gemini_3.6_Flash,Complication code,0
-COPD,Gemini_3.6_Flash,Missed valid diagnosis,59
+COPD,Gemini_3.6_Flash,Missed valid diagnosis,63
 Asthma,GPT-5.4_Mini,Not in dictionary,19
-Asthma,GPT-5.4_Mini,Administrative/monitoring code,14
+Asthma,GPT-5.4_Mini,Administrative/monitoring code,16
 Asthma,GPT-5.4_Mini,Procedural/surgical code,0
 Asthma,GPT-5.4_Mini,Cause-of-death code,0
 Asthma,GPT-5.4_Mini,History/resolved code,0
 Asthma,GPT-5.4_Mini,Sequelae/historical code,2
 Asthma,GPT-5.4_Mini,Complication code,0
-Asthma,GPT-5.4_Mini,Missed valid diagnosis,107
+Asthma,GPT-5.4_Mini,Missed valid diagnosis,105
 Asthma,Claude_Sonnet_5,Not in dictionary,19
-Asthma,Claude_Sonnet_5,Administrative/monitoring code,14
+Asthma,Claude_Sonnet_5,Administrative/monitoring code,16
 Asthma,Claude_Sonnet_5,Procedural/surgical code,0
 Asthma,Claude_Sonnet_5,Cause-of-death code,0
 Asthma,Claude_Sonnet_5,History/resolved code,0
 Asthma,Claude_Sonnet_5,Sequelae/historical code,2
 Asthma,Claude_Sonnet_5,Complication code,0
-Asthma,Claude_Sonnet_5,Missed valid diagnosis,101
+Asthma,Claude_Sonnet_5,Missed valid diagnosis,99
 Asthma,Gemini_3.6_Flash,Not in dictionary,19
-Asthma,Gemini_3.6_Flash,Administrative/monitoring code,14
+Asthma,Gemini_3.6_Flash,Administrative/monitoring code,16
 Asthma,Gemini_3.6_Flash,Procedural/surgical code,0
 Asthma,Gemini_3.6_Flash,Cause-of-death code,0
 Asthma,Gemini_3.6_Flash,History/resolved code,0
 Asthma,Gemini_3.6_Flash,Sequelae/historical code,2
 Asthma,Gemini_3.6_Flash,Complication code,0
-Asthma,Gemini_3.6_Flash,Missed valid diagnosis,93
+Asthma,Gemini_3.6_Flash,Missed valid diagnosis,91
 Insulin,GPT-5.4_Mini,Not in dictionary,0
 Insulin,GPT-5.4_Mini,Administrative/monitoring code,0
 Insulin,GPT-5.4_Mini,Procedural/surgical code,0

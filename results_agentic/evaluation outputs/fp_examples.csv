@@ -27,9 +27,8 @@ Hypertension,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),45,Hypertensio
 Hypertension,GPT-5.4_Mini,Semantic drift (related but different),2,Secondary hyperaldosteronism; Hypertonic disorder
 Hypertension,GPT-5.4_Mini,Risk/screening/suspected,2,Hypertension suspected; Suspected hypertension
 Hypertension,Claude_Sonnet_5,Valid diagnosis subtype (reference gap),64,Hypertension with disorder of right retina; Hypertension with disorder of left retina; Hypertension stage 2
-Hypertension,Gemini_3.6_Flash,Valid diagnosis subtype (reference gap),72,Hypertension stage 2; Hypertension stage 1; Cardiomegaly due to hypertension
+Hypertension,Gemini_3.6_Flash,Valid diagnosis subtype (reference gap),73,Hypertension stage 2; Hypertension stage 1; Cardiomegaly due to hypertension
 Hypertension,Gemini_3.6_Flash,Semantic drift (related but different),1,Preg.+ pre-existing hypertensn
-Hypertension,Gemini_3.6_Flash,Administrative/monitoring,1,Labile hypertension due to being in a clinical environment
 Myocardial Infarction,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),32,Acute myocardial infarction of apex of heart; Acute apical myocardial infarction of heart; Myocardial infarction with non-obstructive coronary artery
 Myocardial Infarction,GPT-5.4_Mini,History/resolved code,1,"Past myocardial infarction diagnosed on ECG AND/OR other special investigation, but currently presenting no symptoms"
 Myocardial Infarction,GPT-5.4_Mini,Exclusion/ruled-out code,1,ECG: no myocardial infarction
@@ -44,9 +43,9 @@ Peripheral Arterial Disease,Claude_Sonnet_5,Semantic drift (related but differen
 Peripheral Arterial Disease,Claude_Sonnet_5,History/resolved code,4,H/O: arterial lower limb ulcer; History of peripheral arterial occlusive disease of lower extremity; History of peripheral arterial occlusive disease
 Peripheral Arterial Disease,Gemini_3.6_Flash,Valid diagnosis subtype (reference gap),85,Claudication; Bilateral atherosclerosis of lower limbs with gangrene; Left iliac artery thrombosis
 Peripheral Arterial Disease,Gemini_3.6_Flash,Semantic drift (related but different),71,Bilateral lower limb atherosclerosis pain at rest co-occurrent and due to atherosclerosis; Ischaemia of right upper limb; Stenosis of artery of left lower limb
-COPD,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),7,Chronic obstructive airways disease NOS; Chronic obstructive pulmonary disease with acute bronchitis; Obstructive emphysema
+COPD,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),8,Chronic obstructive airways disease NOS; Chronic obstructive pulmonary disease with acute bronchitis; Obstructive emphysema
 COPD,GPT-5.4_Mini,Risk/screening/suspected,3,At risk of chronic obstructive pulmonary disease; Suspected chronic obstructive pulmonary disease; Suspected COPD
-COPD,GPT-5.4_Mini,Administrative/monitoring,2,Chronic obstructive pulmonary disease clinic; Chronic obstructive pulmonary disease monitoring status
+COPD,GPT-5.4_Mini,Administrative/monitoring,1,Chronic obstructive pulmonary disease monitoring status
 COPD,GPT-5.4_Mini,Exclusion/ruled-out code,1,COPD excluded by spirometry
 COPD,Claude_Sonnet_5,Valid diagnosis subtype (reference gap),31,The Global Initiative for Chronic Obstructive Lung Disease (GOLD) classification; GOLD (Global Initiative for Chronic Obstructive Lung Disease) 2017 spirometric grade; GOLD (Global Initiative for Chronic Obstructive Lung Disease) 2017 group
 COPD,Claude_Sonnet_5,Semantic drift (related but different),5,Chronic asthma with fixed airflow obstruction; Chronic allergic bronchitis; Acute exacerbation of chronic asthmatic bronchitis

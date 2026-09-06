@@ -87,11 +87,13 @@ def classify_fp(term, condition_keywords):
 
     # 4. Administrative/monitoring
     if any(x in t for x in ["follow-up", "follow up", "annual review", "monitoring",
-                             "clinic", "care pathway", "care plan", "review",
+                             "care pathway", "care plan", "review",
                              "referral", "discharge", "invitation", "exception",
                              "qof", "quality indicator", "admin", "dna -",
-                             "did not attend", "declined", "seen in"]):
-        return "Administrative/monitoring"
+                             "did not attend", "declined", "seen in",
+                             "clinic "]):
+        if not any(x in t for x in ["clinical ex", "clinical excellence"]):
+            return "Administrative/monitoring"
 
     # 5. Check if it's a valid diagnosis subtype
     if any(kw in t for kw in condition_keywords):
@@ -109,22 +111,33 @@ def classify_fn(term, code_id, valid_ids):
     if code_id not in valid_ids:
         return "Not in dictionary"
 
-    # 2. Administrative/monitoring
+    # 2. Administrative/monitoring (includes treatment/drug management codes)
     if any(x in t for x in ["follow-up", "follow up", "annual review", "monitoring",
-                             "clinic", "care pathway", "care plan", "review",
+                             "care pathway", "care plan", "review",
                              "referral", "discharge", "invitation", "exception",
                              "qof", "quality indicator", "admin", "dna -",
                              "did not attend", "declined", "seen in", "screen",
-                             "letter", "leaflet", "advice", "education"]):
-        return "Administrative/monitoring code"
+                             "letter", "leaflet", "advice", "education",
+                             "clinic ",
+                             "antihypertensive", "hypertension drugs",
+                             "hypertension treatment", "hypertensive treatment",
+                             "treatment for hypertension", "on treatment for",
+                             "trial reduction of", "trial withdrawal of",
+                             "on maximal tolerated", "drugs band",
+                             "high cost", "medication optimis", "medication opt",
+                             "drug prevent", "treatment compliance",
+                             "therapy"]):
+        if not any(x in t for x in ["clinical ex", "clinical excellence"]):
+            return "Administrative/monitoring code"
 
     # 3. Procedural/surgical
-    if any(x in t for x in ["percutaneous", "transluminal", "insertion", "stent",
+    if any(x in t for x in ["percutaneous", "transluminal", "percut translum",
+                             "insertion", "stent",
                              "repair", "bypass", "graft", "surgical", "operation",
                              "angioplasty", "endarterectomy", "amputation",
                              "replacement", "anastomosis", "embolectomy",
-                             "catheter", "thrombolysis", "resuscitation",
-                             "therapeutic", "endovas"]):
+                             "catheter", "thrombolysis", "thrombolytic",
+                             "resuscitation", "therapeutic", "endovas"]):
         return "Procedural/surgical code"
 
     # 4. Cause of death
@@ -171,7 +184,7 @@ for c in CONDITIONS:
 
     for model in MODELS:
         tag = f"{name}_{model}".replace(" ", "_")
-        codelist_file = os.path.join(OUTPUT_DIR, f"{tag}_codelist.csv")
+        codelist_file = os.path.join(OUTPUT_DIR, "AI-generated codelists", f"{tag}_codelist.csv")
         if not os.path.exists(codelist_file):
             continue
 
@@ -236,12 +249,15 @@ for c in CONDITIONS:
             })
 
 # ── Save summary CSVs ──
-pd.DataFrame(all_fp_summary).to_csv(
-    os.path.join(OUTPUT_DIR, "fp_error_analysis.csv"), index=False)
-pd.DataFrame(all_fn_summary).to_csv(
-    os.path.join(OUTPUT_DIR, "fn_error_analysis.csv"), index=False)
-pd.DataFrame(all_fp_examples).to_csv(
-    os.path.join(OUTPUT_DIR, "fp_examples.csv"), index=False)
+eval_out = os.path.join(OUTPUT_DIR, "evaluation outputs")
+os.makedirs(eval_out, exist_ok=True)
+for out_dir in [OUTPUT_DIR, eval_out]:
+    pd.DataFrame(all_fp_summary).to_csv(
+        os.path.join(out_dir, "fp_error_analysis.csv"), index=False)
+    pd.DataFrame(all_fn_summary).to_csv(
+        os.path.join(out_dir, "fn_error_analysis.csv"), index=False)
+    pd.DataFrame(all_fp_examples).to_csv(
+        os.path.join(out_dir, "fp_examples.csv"), index=False)
 
 # ── Aggregate across all conditions per model ──
 print("\n" + "=" * 90)

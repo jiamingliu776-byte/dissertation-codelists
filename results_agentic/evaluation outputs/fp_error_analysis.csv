@@ -65,11 +65,11 @@ Hypertension,Claude_Sonnet_5,History/resolved code,0
 Hypertension,Claude_Sonnet_5,Risk/screening/suspected,0
 Hypertension,Claude_Sonnet_5,Administrative/monitoring,0
 Hypertension,Claude_Sonnet_5,Exclusion/ruled-out code,0
-Hypertension,Gemini_3.6_Flash,Valid diagnosis subtype (reference gap),72
+Hypertension,Gemini_3.6_Flash,Valid diagnosis subtype (reference gap),73
 Hypertension,Gemini_3.6_Flash,Semantic drift (related but different),1
 Hypertension,Gemini_3.6_Flash,History/resolved code,0
 Hypertension,Gemini_3.6_Flash,Risk/screening/suspected,0
-Hypertension,Gemini_3.6_Flash,Administrative/monitoring,1
+Hypertension,Gemini_3.6_Flash,Administrative/monitoring,0
 Hypertension,Gemini_3.6_Flash,Exclusion/ruled-out code,0
 Myocardial Infarction,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),32
 Myocardial Infarction,GPT-5.4_Mini,Semantic drift (related but different),0
@@ -107,11 +107,11 @@ Peripheral Arterial Disease,Gemini_3.6_Flash,History/resolved code,0
 Peripheral Arterial Disease,Gemini_3.6_Flash,Risk/screening/suspected,0
 Peripheral Arterial Disease,Gemini_3.6_Flash,Administrative/monitoring,0
 Peripheral Arterial Disease,Gemini_3.6_Flash,Exclusion/ruled-out code,0
-COPD,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),7
+COPD,GPT-5.4_Mini,Valid diagnosis subtype (reference gap),8
 COPD,GPT-5.4_Mini,Semantic drift (related but different),0
 COPD,GPT-5.4_Mini,History/resolved code,0
 COPD,GPT-5.4_Mini,Risk/screening/suspected,3
-COPD,GPT-5.4_Mini,Administrative/monitoring,2
+COPD,GPT-5.4_Mini,Administrative/monitoring,1
 COPD,GPT-5.4_Mini,Exclusion/ruled-out code,1
 COPD,Claude_Sonnet_5,Valid diagnosis subtype (reference gap),31
 COPD,Claude_Sonnet_5,Semantic drift (related but different),5
