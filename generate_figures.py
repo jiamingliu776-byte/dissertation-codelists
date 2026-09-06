@@ -236,41 +236,73 @@ print("Figure 3: Error classification SVG saved")
 # Figure 4: Condition Group Comparison
 # ══════════════════════════════════════════════════════════
 
-fig, ax = plt.subplots(figsize=(8, 5.5))
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 5), gridspec_kw={'width_ratios': [1, 1], 'wspace': 0.35})
 
-groups = ['Cardiovascular\n(AF, HF, CeVD, HTN, MI, PAD)', 'Respiratory\n(COPD, Asthma)', 'Drug Products\n(Insulin, Metformin)']
-gpt_g = [0.324, 0.360, 0.662]
-claude_g = [0.375, 0.428, 0.786]
-gemini_g = [0.400, 0.424, 0.784]
+# Left panel: Diagnosis vs Drug Products
+groups_l = ['Diagnosis\n(8 conditions)', 'Drug Products\n(Insulin, Metformin)']
+gpt_l = [0.333, 0.662]
+claude_l = [0.388, 0.786]
+gemini_l = [0.406, 0.784]
 
-x = np.arange(3)
+x_l = np.arange(2)
 width = 0.22
 
-bg_colors = ['#E8EAF6', '#FFF3E0', '#E8F5E9']
-for i, (bg, gx) in enumerate(zip(bg_colors, x)):
-    ax.axvspan(gx - 0.42, gx + 0.42, color=bg, alpha=0.5, zorder=0)
+bg_l = ['#E8EAF6', '#E8F5E9']
+for i, (bg, gx) in enumerate(zip(bg_l, x_l)):
+    ax1.axvspan(gx - 0.42, gx + 0.42, color=bg, alpha=0.5, zorder=0)
 
-bars1 = ax.bar(x - width, gpt_g, width, label='GPT-5.4 Mini', color='#5B9BD5', edgecolor='white', linewidth=0.5, zorder=3)
-bars2 = ax.bar(x, claude_g, width, label='Claude Sonnet 5', color='#ED7D31', edgecolor='white', linewidth=0.5, zorder=3)
-bars3 = ax.bar(x + width, gemini_g, width, label='Gemini 3.6 Flash', color='#70AD47', edgecolor='white', linewidth=0.5, zorder=3)
+b1 = ax1.bar(x_l - width, gpt_l, width, label='GPT-5.4 Mini', color='#5B9BD5', edgecolor='white', linewidth=0.5, zorder=3)
+b2 = ax1.bar(x_l, claude_l, width, label='Claude Sonnet 5', color='#ED7D31', edgecolor='white', linewidth=0.5, zorder=3)
+b3 = ax1.bar(x_l + width, gemini_l, width, label='Gemini 3.6 Flash', color='#70AD47', edgecolor='white', linewidth=0.5, zorder=3)
 
-for bars in [bars1, bars2, bars3]:
+for bars in [b1, b2, b3]:
     for bar in bars:
         h = bar.get_height()
-        ax.text(bar.get_x() + bar.get_width()/2, h + 0.012, f'{h:.3f}',
-                ha='center', va='bottom', fontsize=9, fontweight='bold', color='#444')
+        ax1.text(bar.get_x() + bar.get_width()/2, h + 0.012, f'{h:.3f}',
+                ha='center', va='bottom', fontsize=8, fontweight='bold', color='#444')
 
-ax.set_xticks(x)
-ax.set_xticklabels(groups, fontsize=10)
-ax.set_ylabel('Mean F1 Score', fontsize=11)
-ax.set_ylim(0, 0.95)
-ax.set_yticks(np.arange(0, 1.0, 0.2))
-ax.legend(loc='upper left', fontsize=9, framealpha=0.9)
-ax.grid(axis='y', alpha=0.3, zorder=0)
-ax.set_title('Mean F1 by Condition Group', fontsize=14, fontweight='bold', pad=12)
+ax1.set_xticks(x_l)
+ax1.set_xticklabels(groups_l, fontsize=10)
+ax1.set_ylabel('Mean F1 Score', fontsize=11)
+ax1.set_ylim(0, 1.0)
+ax1.set_yticks(np.arange(0, 1.0, 0.2))
+ax1.legend(loc='upper left', fontsize=8.5, framealpha=0.9)
+ax1.grid(axis='y', alpha=0.3, zorder=0)
+ax1.set_title('Diagnosis vs Drug Products', fontsize=12, fontweight='bold', pad=10)
 
-plt.tight_layout()
-plt.savefig(os.path.join(OUT, "fig4_condition_groups.svg"), format='svg')
+# Right panel: Cardiometabolic vs Respiratory (within Diagnosis)
+groups_r = ['Cardiometabolic\n(AF, HF, CeVD, HTN, MI, PAD)', 'Respiratory\n(COPD, Asthma)']
+gpt_r = [0.324, 0.360]
+claude_r = [0.375, 0.428]
+gemini_r = [0.400, 0.424]
+
+x_r = np.arange(2)
+
+bg_r = ['#E8EAF6', '#FFF3E0']
+for i, (bg, gx) in enumerate(zip(bg_r, x_r)):
+    ax2.axvspan(gx - 0.42, gx + 0.42, color=bg, alpha=0.5, zorder=0)
+
+b4 = ax2.bar(x_r - width, gpt_r, width, color='#5B9BD5', edgecolor='white', linewidth=0.5, zorder=3)
+b5 = ax2.bar(x_r, claude_r, width, color='#ED7D31', edgecolor='white', linewidth=0.5, zorder=3)
+b6 = ax2.bar(x_r + width, gemini_r, width, color='#70AD47', edgecolor='white', linewidth=0.5, zorder=3)
+
+for bars in [b4, b5, b6]:
+    for bar in bars:
+        h = bar.get_height()
+        ax2.text(bar.get_x() + bar.get_width()/2, h + 0.012, f'{h:.3f}',
+                ha='center', va='bottom', fontsize=8, fontweight='bold', color='#444')
+
+ax2.set_xticks(x_r)
+ax2.set_xticklabels(groups_r, fontsize=10)
+ax2.set_ylabel('Mean F1 Score', fontsize=11)
+ax2.set_ylim(0, 0.95)
+ax2.set_yticks(np.arange(0, 1.0, 0.2))
+ax2.grid(axis='y', alpha=0.3, zorder=0)
+ax2.set_title('Within Diagnosis Conditions', fontsize=12, fontweight='bold', pad=10)
+
+fig.suptitle('Mean F1 by Condition Group', fontsize=14, fontweight='bold')
+plt.subplots_adjust(top=0.88)
+plt.savefig(os.path.join(OUT, "fig4_condition_groups.svg"), format='svg', bbox_inches='tight')
 plt.close()
 print("Figure 4: Condition groups SVG saved")
 
